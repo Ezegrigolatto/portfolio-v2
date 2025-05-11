@@ -1,7 +1,4 @@
-import { animate, motion, useMotionValue } from 'motion/react';
-import CarouselItem from './carousel-item';
-import { JSX, useEffect, useState } from 'react';
-import useMeasure from 'react-use-measure';
+import { JSX } from 'react';
 import { cn } from '@/utils/twMerge';
 
 interface InfiniteCarouselProps {

@@ -9,7 +9,6 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 
 export default function Error({
-  params,
   error,
 }: {
   params: Promise<{ locale: string }>;

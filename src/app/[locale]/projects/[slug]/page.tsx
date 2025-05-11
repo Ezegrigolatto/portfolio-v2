@@ -1,6 +1,5 @@
 import { use } from 'react';
 import { setRequestLocale } from 'next-intl/server';
-import AboutMePageComponent from '@/components/pages/about-me';
 import ProjectDetails from '@/components/pages/project-detail';
 
 export default function ProjectPage({

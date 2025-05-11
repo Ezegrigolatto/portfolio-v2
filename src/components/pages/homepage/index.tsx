@@ -1,7 +1,6 @@
 'use client';
 
 import Hero from '@/components/hero';
-import HighlightedProject from '@/components/highlighted-project';
 import ContactMeSection from '@/components/layout/contact-section';
 import HighlightedProjectsSection from '@/components/layout/highlighted-projects-section';
 import KpisSection from '@/components/layout/kpis-section';

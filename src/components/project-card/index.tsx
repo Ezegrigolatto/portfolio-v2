@@ -2,6 +2,7 @@ import { Project } from '@/types';
 import { AnimatePresence, motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface ProjectCardProps {
   data: Project;
@@ -18,7 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
           whileHover={{ scale: 1.05 }}
           className="flex items-center justify-start w-full md:w-[50vw] min-h-64 h-full p-4 rounded-lg shadow-lg dark:shadow-zinc-800 border relative cursor-pointer"
         >
-          <img
+          <Image
             src={data.images[0].url}
             alt={data.title}
             className="hidden md:block min-h-64 h-full w-46 object-cover rounded-lg -translate-x-16 border shadow-2xl dark:shadow-zinc-800 "

@@ -4,8 +4,6 @@ import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { ThemeProvider } from '@/components/theme-provider';
-import { jsonLdScriptProps } from 'react-schemaorg';
-import { WebSite } from 'schema-dts';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';

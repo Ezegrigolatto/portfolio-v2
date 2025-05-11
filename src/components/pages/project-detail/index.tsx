@@ -9,6 +9,7 @@ import { cn } from '@/utils/twMerge';
 import { buttonVariants } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 
 interface ProjectDetailsProps {
   slug: string;
@@ -61,23 +62,23 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
         >
           <CarouselContent>
             <CarouselItem>
-              <img
-                src={project?.images[0].url}
-                alt={project?.title}
+              <Image
+                src={project?.images[0].url || ''}
+                alt={project?.title || ''}
                 className="w-full rounded-xl"
               />
             </CarouselItem>
             <CarouselItem>
-              <img
-                src={project?.images[0].url}
-                alt={project?.title}
+              <Image
+                src={project?.images[0].url || ''}
+                alt={project?.title || ''}
                 className="w-full rounded-xl"
               />
             </CarouselItem>
             <CarouselItem>
-              <img
-                src={project?.images[0].url}
-                alt={project?.title}
+              <Image
+                src={project?.images[0].url || ''}
+                alt={project?.title || ''}
                 className="w-full rounded-xl"
               />
             </CarouselItem>

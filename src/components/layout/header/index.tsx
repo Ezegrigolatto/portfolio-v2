@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { useEffect, useState } from 'react';
 
 import LanguageSwitcher from '../language-switcher';
 import Link from 'next/link';

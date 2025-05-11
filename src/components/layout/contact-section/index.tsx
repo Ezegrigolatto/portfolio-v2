@@ -3,18 +3,11 @@
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
 
-import HighlightedProject from '@/components/highlighted-project';
-import { useTranslations } from 'next-intl';
-import { Project } from '@/types';
-import Link from 'next/link';
-import { cn } from '@/utils/twMerge';
-import { buttonVariants } from '@/components/ui/button';
 import ContactForm from '@/components/contact-form';
 
 const ContactMeSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { once: true, margin: '-100px' });
-  const t = useTranslations();
 
   const variants = {
     initial: {

@@ -1,15 +1,14 @@
 import { Project } from '@/types';
 import { ArrowRightIcon } from 'lucide-react';
-import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'motion/react';
 import React from 'react';
+import Image from 'next/image';
 interface HighlightedProjectProps {
   project: Project;
 }
 
 const HighlightedProject: React.FC<HighlightedProjectProps> = ({ project }) => {
-  const t = useTranslations();
   const [isHovered, setIsHovered] = React.useState(false);
   return (
     <Link
@@ -18,7 +17,7 @@ const HighlightedProject: React.FC<HighlightedProjectProps> = ({ project }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img
+      <Image
         width={1200}
         height={630}
         src={project.images[0].url}
