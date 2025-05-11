@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+//TODO change url 
+Sitemap: https://next-app-i18n-starter.vercel.app/sitemap.xml

@@ -1,0 +1,86 @@
+{
+  "Common": {
+    "thanks": "Thank you"
+  },
+  "Header": {
+    "home": "Home",
+    "about-me": "About Me",
+    "projects": "Projects",
+    "toggle-menu": "Toggle Menu"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Hi, I'm Zeki",
+      "content-p1": "I'm a",
+      "content-p2": "Frontend",
+      "content-p3": "software engineer with a passion for crafting",
+      "content-p4": "beautiful",
+      "content-p5": "and",
+      "content-p6": "functional",
+      "content-p7": "user experiences.",
+      "cta-button": "About Me"
+    },
+    "projects": {
+      "title": "Projects",
+      "cta-button": "View All Projects"
+    },
+    "stacks": {
+      "title": "Technologies"
+    },
+    "kpis": {
+      "title": "Key Metrics",
+      "projects": "Projects",
+      "happy-customers": "Happy customers",
+      "coding-hours": "Coding hours"
+    }
+  },
+  "ContactForm": {
+    "title": "Contact Me",
+    "cta": "Get in Touch",
+    "description1": "Need a boost for your next project?",
+    "description2": "I'm always open to discussing new ideas, collaborations, or ways I can help bring your vision to life.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "message-placeholder": "Type your message here...",
+    "submit-button": "Send Message",
+    "submit-button-success": "Thank you!"
+  },
+  "Footer": {
+    "text1": "Made with ",
+    "text2": "Connect with me on",
+    "copyright": "Copyright ©",
+    "rights": "All rights reserved."
+  },
+  "ProjectsPage": {
+    "title": "Projects"
+  },
+  "ProjectDetailPage": {
+    "cta-button": "Back to All Projects"
+  },
+  "AboutMePage": {
+    "title1": "Who Am I?",
+    "title2": "More About Me",
+    "paragraph1": "👋 Hi there! I'm Zeki, a Software Engineer based in Argentina.",
+    "paragraph2": "I'm a passionate frontend developer who enjoys building elegant and functional user experiences. Beyond beautiful UIs, I love solving problems and optimizing usability.",
+    "paragraph3": "I have a solid background in JavaScript and TypeScript, with deep experience in React and its ecosystem, especially Next.js. I've worked with various styling libraries and integrated numerous third-party services, including payment gateways, Google APIs, charts, authentication systems, CMSs, and also with React Native for mobile development.",
+    "paragraph4": "I'm a problem solver by nature. I love when things work, but I thrive even more when challenges arise—they're opportunities to learn and grow. What do I bring to your team? I'm like a Swiss Army knife: from building UIs from scratch to solving niche bugs or animating components, I adapt and deliver solutions.",
+    "paragraph5": "Beyond software engineering, I'm also a math teacher. While studying to become a professor, I discovered my love for problem-solving—which led me into programming. I enjoy teaching, sharing knowledge, and playing chess (not professionally, but often). I’m also into video games—especially strategy, FPS, and sports games.",
+    "paragraph6": "I stay active by playing football (soccer) and hitting the gym a few times a week.",
+    "paragraph7": "I'm deeply passionate about astronomy. I love watching documentaries and reading about space. One of my personal goals is to become an astrophotographer and share the beauty of the universe through my lens."
+  },
+  "ErrorPage": {
+    "title": "Something went wrong",
+    "cta-button": "Back to Home"
+  },
+  "NotFound": {
+    "title": "Oops!",
+    "description": "Looks like our cat hid the page you’re looking for.",
+    "cta-button": "Back to Home"
+  },
+  "Metadata": {
+    "title": "",
+    "description": "",
+    "keywords": ""
+  }
+}

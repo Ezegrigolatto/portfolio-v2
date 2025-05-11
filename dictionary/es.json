@@ -1,0 +1,86 @@
+{
+  "Common": {
+    "thanks": "Gracias"
+  },
+  "Header": {
+    "home": "Inicio",
+    "about-me": "Sobre mí",
+    "projects": "Proyectos",
+    "toggle-menu": "Mostrar menú"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Hola, soy Zeki",
+      "content-p1": "Soy un",
+      "content-p2": "Frontend",
+      "content-p3": "software engineer con pasión por crear",
+      "content-p4": "interfaces bellas",
+      "content-p5": "y",
+      "content-p6": "funcionales",
+      "content-p7": "centradas en el usuario.",
+      "cta-button": "Sobre mí"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "cta-button": "Ver todos los proyectos"
+    },
+    "stacks": {
+      "title": "Tecnologías"
+    },
+    "kpis": {
+      "title": "Indicadores clave",
+      "projects": "Proyectos",
+      "happy-customers": "Clientes satisfechos",
+      "coding-hours": "Horas de código"
+    }
+  },
+  "ContactForm": {
+    "title": "Contáctame",
+    "cta": "Hablemos",
+    "description1": "¿Necesitás un impulso extra para tu proyecto?",
+    "description2": "Estoy siempre abierto a conversar sobre nuevas ideas, colaboraciones o formas en las que pueda ayudarte a hacer realidad tu visión.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "message-placeholder": "Escribí tu mensaje aquí...",
+    "submit-button": "Enviar mensaje",
+    "submit-button-success": "¡Gracias!"
+  },
+  "Footer": {
+    "text1": "Hecho con ",
+    "text2": "Seguime en",
+    "copyright": "Copyright ©",
+    "rights": "Todos los derechos reservados."
+  },
+  "ProjectsPage": {
+    "title": "Proyectos"
+  },
+  "ProjectDetailPage": {
+    "cta-button": "Volver a los proyectos"
+  },
+  "AboutMePage": {
+    "title1": "¿Quién soy?",
+    "title2": "Más sobre mí",
+    "paragraph1": "👋 ¡Hola! Soy Zeki, un Software Engineer con base en Argentina.",
+    "paragraph2": "Soy un desarrollador frontend apasionado por construir experiencias de usuario elegantes y funcionales. Más allá de las interfaces bonitas, disfruto resolver problemas y optimizar la usabilidad.",
+    "paragraph3": "Tengo una sólida base en JavaScript y TypeScript, con amplia experiencia en React y su framework principal: Next.js. Trabajé con diversas librerías de estilos e integré múltiples servicios de terceros, incluyendo pasarelas de pago, APIs de Google, gráficos, sistemas de autenticación, CMS, entre otros.",
+    "paragraph4": "Me considero una persona resolutiva. Me encanta cuando todo funciona, pero disfruto aún más cuando surgen desafíos, porque siempre traen oportunidades de aprendizaje. ¿Qué valor aporto a tu equipo? Soy como una navaja suiza: puedo crear interfaces desde cero, resolver bugs específicos o animar componentes, siempre me adapto y encuentro la mejor solución.",
+    "paragraph5": "Además de ser desarrollador, soy profesor de matemática. Mientras estudiaba para ser docente, descubrí mi amor por los desafíos lógicos, lo que me llevó a la programación. Disfruto aprender, enseñar y compartir conocimiento. También soy fan de los videojuegos: me gustan los de estrategia, FPS y deportes.",
+    "paragraph6": "Me mantengo activo jugando al fútbol y yendo al gimnasio varias veces por semana.",
+    "paragraph7": "Me fascina la astronomía. Suelo mirar documentales y leer sobre el espacio. Uno de mis objetivos personales es convertirme en astrofotógrafo y compartir la belleza del universo a través de mi lente."
+  },
+  "ErrorPage": {
+    "title": "Ocurrió un error inesperado",
+    "cta-button": "Volver al inicio"
+  },
+  "NotFound": {
+    "title": "¡Ups!",
+    "description": "Parece que nuestro gato escondió la página que estabas buscando.",
+    "cta-button": "Volver al inicio"
+  },
+  "Metadata": {
+    "title": "",
+    "description": "",
+    "keywords": ""
+  }
+}
