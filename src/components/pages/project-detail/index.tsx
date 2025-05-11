@@ -24,6 +24,10 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
       try {
         const response = await (await fetch('/data.json')).json();
 
+        console.log('Projects:', response);
+
+        console.log('Slug:', slug);
+
         setProjects(response);
       } catch (error) {
         console.error('Error fetching projects:', error);
