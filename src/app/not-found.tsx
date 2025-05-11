@@ -31,7 +31,7 @@ const LOCAL_DICTIONARY: Record<
 export default function NotFound() {
   const params = useParams();
   const { locale } = params as { locale: 'en' | 'es' };
-  const t = LOCAL_DICTIONARY[locale]['not-found'];
+  const t = LOCAL_DICTIONARY[locale || 'en']['not-found'];
 
   return (
     <html>
