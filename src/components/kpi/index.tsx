@@ -17,9 +17,9 @@ const Kpi: React.FC<KpiProps> = ({ data }) => {
       className="rounded-xl p-6 border shadow-lg dark:shadow-zinc-800/50 cursor-pointer w-full md:w-84 h-48 relative"
       whileHover={{ scale: 1.05 }}
     >
-      <div className="flex gap-4 items-center overflow-hidden max-h-[25%] w-full">
+      <div className="flex gap-4 items-center overflow-hidden h-auto w-full">
         {data.icon}
-        <h6 className="text-typography font-semibold  text-2xl text-zinc-600 text-ellipsis">
+        <h6 className="text-typography font-semibold text-2xl text-zinc-600 text-ellipsis">
           {t(data.label)}
         </h6>
       </div>
