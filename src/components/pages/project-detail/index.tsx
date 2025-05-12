@@ -31,14 +31,14 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
         setProjects(response);
       } catch (error) {
         console.error('Error fetching projects:', error);
+        return notFound();
       }
     };
     fetchProjects();
   }, [slug]);
 
   const project = useMemo(() => {
-    if (!projects) return notFound();
-    return projects.find((project) => project.slug === slug);
+    return projects?.find((project) => project.slug === slug);
   }, [projects, slug]);
 
   return (
@@ -68,6 +68,8 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
             <CarouselItem>
               <Image
                 src={project?.images[0].url || ''}
+                width="1000"
+                height="1000"
                 alt={project?.title || ''}
                 className="w-full rounded-xl"
               />
@@ -75,6 +77,8 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
             <CarouselItem>
               <Image
                 src={project?.images[0].url || ''}
+                width="1000"
+                height={1000}
                 alt={project?.title || ''}
                 className="w-full rounded-xl"
               />
@@ -82,6 +86,8 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
             <CarouselItem>
               <Image
                 src={project?.images[0].url || ''}
+                height="1000"
+                width="1000"
                 alt={project?.title || ''}
                 className="w-full rounded-xl"
               />
@@ -103,9 +109,11 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
               </motion.span>
             ))}
           </motion.div>
-          <p className=" text-gray-500">
-            From {project?.start_date} to {project?.end_date}
-          </p>
+          {project?.start_date && project?.end_date && (
+            <p className=" text-gray-500">
+              From {project?.start_date} to {project?.end_date}
+            </p>
+          )}
         </div>
         <div className="flex flex-col gap-8">
           <p className="text-gray-500">{project?.full_description}</p>

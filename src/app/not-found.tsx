@@ -49,7 +49,7 @@ export default function NotFound() {
 
               <div className="flex items-center justify-center">
                 <Link
-                  href="/projects"
+                  href="/"
                   className={cn(
                     buttonVariants({
                       variant: 'outline',
