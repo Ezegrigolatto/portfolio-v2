@@ -11,7 +11,7 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
   return (
     <AnimatePresence>
-      <Link href={`/projects/${data.slug}`} >
+      <Link href={`/projects/${data.slug}`}>
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -20,9 +20,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
           className="flex items-center justify-start w-full md:w-[50vw] min-h-64 h-full p-4 rounded-lg shadow-lg dark:shadow-zinc-800 border relative cursor-pointer"
         >
           <Image
+            width={1200}
+            height={630}
             src={data.images[0].url}
             alt={data.title}
-            className="hidden md:block min-h-64 h-full w-46 object-cover rounded-lg -translate-x-16 border shadow-2xl dark:shadow-zinc-800 "
+            className="hidden md:block min-h-64 h-full w-[420px] object-cover rounded-lg -translate-x-12 border shadow-2xl dark:shadow-zinc-800 "
           />
           <div className="flex flex-col w-full">
             <div className="py-4">

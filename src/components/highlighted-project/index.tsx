@@ -13,32 +13,36 @@ const HighlightedProject: React.FC<HighlightedProjectProps> = ({ project }) => {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className="group relative rounded-xl p-2 shadow-lg dark:shadow-zinc-800/50"
+      className="group relative rounded-xl p-2 shadow-lg dark:shadow-zinc-800/50 flex flex-col justify-between"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Image
-        width={1200}
-        height={630}
-        src={project.images[0].url}
-        alt={project.title}
-        className="rounded-lg"
-      />
-      <div className="flex items-center justify-between gap-2 px-2 pt-4 text-sm text-zinc-500">
-        {`${project.start_date} – ${project.end_date}`}
+      <div className="relative w-full min-h-80 h-full md:h-[70%] overflow-hidden rounded-lg flex items-center justify-center">
+        <Image
+          width={1200}
+          height={630}
+          src={project.images[0].url}
+          alt={project.title}
+          className="rounded-lg self-center"
+        />
       </div>
-
-      <motion.div
-        animate={{ x: isHovered ? 20 : 0 }}
-        transition={{ duration: 0.2 }}
-        className="flex gap-2 items-center mr-8"
-      >
-        <div className="flex flex-col px-2 py-4 w-[85%]">
-          <h3 className="text-2xl font-semibold">{project.title}</h3>
-          <p className="text-muted-foreground mt-2">{project.description}</p>
+      <div className="flex flex-col justify-between pt-4 md:h-[30%]">
+        <div className="flex items-center justify-between gap-2 px-2 text-sm text-zinc-500">
+          {`${project.start_date} – ${project.end_date}`}
         </div>
-        <ArrowRightIcon size={24} />
-      </motion.div>
+
+        <motion.div
+          animate={{ x: isHovered ? 20 : 0 }}
+          transition={{ duration: 0.2 }}
+          className="flex gap-2 items-center mr-8"
+        >
+          <div className="flex flex-col px-2 py-4 w-[85%]">
+            <h3 className="text-2xl font-semibold">{project.title}</h3>
+            <p className="text-muted-foreground mt-2">{project.description}</p>
+          </div>
+          <ArrowRightIcon size={24} />
+        </motion.div>
+      </div>
     </Link>
   );
 };

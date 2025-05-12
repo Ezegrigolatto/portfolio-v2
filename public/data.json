@@ -1,77 +1,46 @@
 [
   {
     "id": 1,
-    "title": "E-commerce de Indumentaria",
-    "description": "Una tienda online para vender ropa urbana, con catálogo, carrito de compras y pagos integrados.",
-    "full_description": "El sitio incluye un catálogo de productos, carrito de compras y pasarela de pago. Los usuarios pueden registrarse, iniciar sesión y gestionar su perfil. La tienda está optimizada para móviles y tiene un diseño atractivo. La web incorpora un sistema de gestión de inventario y permite a los administradores añadir, editar y eliminar productos. También cuenta con un sistema de comentarios y valoraciones para los productos, ademas de una integración con redes sociales y sistema de pagos online.",
+    "title": "Junglytics",
+    "description": "Junglytics es una plataforma de análisis para vendedores de Amazon. Permite visualizar métricas clave, gestionar inventario y optimizar la rentabilidad de productos FBA.",
+    "full_description": "Junglytics es una herramienta web orientada a vendedores de Amazon. La plataforma centraliza y visualiza datos clave de ventas, costos, comisiones, inventario y rentabilidad, permitiendo tomar decisiones basadas en métricas en tiempo real. Entre sus funcionalidades se incluyen dashboards financieros, reportes detallados de producto y herramientas para optimizar el desempeño de cada ítem en el marketplace. Su objetivo es facilitar la gestión operativa y estratégica del negocio dentro del ecosistema de Amazon",
     "images": [
-      { "url": "/images/project-placeholder.png", "alt": "Project placeholder" }
+      { "url": "/images/junglytics/junglytics-1.png", "alt": "Junglytics image 1" },
+      { "url": "/images/junglytics/junglytics-2.png", "alt": "Junglytics image 2" },
+      { "url": "/images/junglytics/junglytics-3.png", "alt": "Junglytics image 3" }
     ],
-    "start_date": "2023-03-01",
-    "end_date": "2023-06-15",
-    "challenges": "Integración con pasarelas de pago y optimización del rendimiento en móviles.",
-    "long_role_explanation": "Me encargué del desarrollo frontend con React y la integración con la API de pagos. También trabajé en el diseño responsivo.",
-    "technologies": ["React", "Node.js", "Stripe", "MongoDB", "TailwindCSS"],
-    "slug": "ecommerce-indumentaria"
+    "start_date": "Marzo de 2022",
+    "end_date": "Diciembre de 2022",
+    "challenges": "Integración de multiples y variados tipos de datos, dashboards interactivos, tablas de datos, gráficos, estadisticas y reportes. Integración con APIs de terceros, autenticación y gestión de usuarios basada en roles.",
+    "long_role_explanation": "Me encargué del desarrollo frontend con React, generando una interfaz visual basada en un diseño predefinido via Figma. Implementé la lógica de negocio brindada por los clientes y estuve a cargo de la implementacion de multiples tipos de graficos, tablas e informacion visual clave para el usuario.",
+    "technologies": ["React", "AWS", "MaterialUI", "Styled Components", "Typescript"],
+    "slug": "junglytics"
   },
   {
     "id": 2,
-    "title": "Dashboard de Analítica Web",
-    "description": "Panel interactivo para visualizar métricas de tráfico y comportamiento de usuarios.",
-    "full_description": "El dashboard permite a los usuarios visualizar métricas en tiempo real, como visitas, tasa de rebote y duración de la sesión. Los datos se presentan en gráficos interactivos y tablas. Los usuarios pueden filtrar la información por fecha y tipo de dispositivo. La aplicación está diseñada para ser intuitiva y fácil de usar, con un enfoque en la experiencia del usuario. También incluye un sistema de alertas para notificar a los administradores sobre cambios significativos en las métricas.",
+    "title": "Nicer",
+    "description": "Un ecosistema completo para la gestión de viajes. Gestiona itinerarios, pagos, reservas y manten comunicación con los viajeros.",
+    "full_description": "Nicer se define a si misma como el futuro de los viajes, se trata de una plataforma que brinda a los travel advisors multiples herramientas para gestionar viajes de manera eficiente y personalizada, incluyendo un sistema de gestión de itinerarios, pagos, reservas y comunicación con los viajeros. Un ecosistema todo en uno que invluye multiples sitios web y su propia aplicacion nativa.",
     "images": [
-      { "url": "/images/project-placeholder.png", "alt": "Project placeholder" }
+      { "url": "/images/nicer/nicer-2.png", "alt": "Nicer image 2" },
+      { "url": "/images/nicer/nicer-1.png", "alt": "Nicer image 1" },
+      { "url": "/images/nicer/nicer-3.png", "alt": "Nicer image 3" }
     ],
-    "start_date": "2022-11-10",
-    "end_date": "2023-02-20",
-    "challenges": "Renderización de grandes volúmenes de datos sin afectar el rendimiento.",
-    "long_role_explanation": "Implementé gráficos dinámicos con Recharts y configuré filtros en tiempo real. También desarrollé lógica para paginación y lazy loading.",
-    "technologies": ["React", "Recharts", "TypeScript", "Firebase", "Chart.js"],
-    "slug": "dashboard-analitica-web"
-  },
-  {
-    "id": 3,
-    "title": "Red Social para Fotógrafos",
-    "description": "Plataforma donde los fotógrafos pueden compartir imágenes, seguirse entre ellos y comentar publicaciones.",
-    "full_description": "La red social permite a los usuarios crear perfiles, subir imágenes y seguir a otros fotógrafos. Los usuarios pueden comentar y dar 'me gusta' a las publicaciones. La plataforma incluye un sistema de notificaciones y un feed personalizado. También cuenta con un sistema de búsqueda avanzada para encontrar fotógrafos y fotos por etiquetas. La aplicación está optimizada para móviles y tiene un diseño atractivo.",
-    "images": [
-      { "url": "/images/project-placeholder.png", "alt": "Project placeholder" }
+    "start_date": "Abril de 2024",
+    "end_date": "En desarrollo",
+    "challenges": "Integración de múltiples APIs de terceros, integracion de un CMS, integración de pagos, gestion de itinerarios complejos y multiples reglas de negocio. Tambien construimos nuestra propia libreria de componentes para el desarrollo frontend.",
+    "long_role_explanation": "Me encargo del desarrollo y mantenimiento del frontend de los multiples sitios web y la aplicación nativa, así como de la integración con las APIs de terceros. Actualmente coexisten 5 sitios webs diferentes y una aplicacion mobile.",
+    "technologies": [
+      "React",
+      "React Native",
+      "Next.js",
+      "Sass",
+      "AWS",
+      "Vite",
+      "Contentful",
+      "TailwindCSS",
+      "Typescript"
     ],
-    "start_date": "2021-08-01",
-    "end_date": "2022-01-30",
-    "challenges": "Manejo de grandes cantidades de imágenes y control de acceso según privacidad del usuario.",
-    "long_role_explanation": "Diseñé y desarrollé el frontend, asegurando accesibilidad y carga optimizada de imágenes. Participé también en la definición del modelo de datos.",
-    "technologies": ["React", "Node.js", "Express", "Cloudinary", "MongoDB"],
-    "slug": "red-social-fotografos"
-  },
-  {
-    "id": 4,
-    "title": "Gestor de Tareas para Equipos",
-    "description": "Aplicación web para gestionar proyectos, asignar tareas y hacer seguimiento de entregas.",
-    "full_description": "La aplicación permite a los equipos crear proyectos, asignar tareas y hacer seguimiento del progreso. Los usuarios pueden comentar en las tareas y recibir notificaciones sobre cambios. La plataforma incluye un sistema de gestión de usuarios y roles, permitiendo diferentes niveles de acceso. También cuenta con un sistema de búsqueda avanzada para encontrar tareas y proyectos por etiquetas. La aplicación está optimizada para móviles y tiene un diseño atractivo.",
-    "images": [
-      { "url": "/images/project-placeholder.png", "alt": "Project placeholder" }
-    ],
-    "start_date": "2022-04-05",
-    "end_date": "2022-07-10",
-    "challenges": "Sincronización en tiempo real entre múltiples usuarios trabajando en el mismo tablero.",
-    "long_role_explanation": "Me enfoqué en la integración de sockets para sincronización en vivo y en la experiencia de usuario con drag & drop.",
-    "technologies": ["React", "Socket.IO", "Redux", "TypeScript", "PostgreSQL"],
-    "slug": "gestor-tareas-equipos"
-  },
-  {
-    "id": 5,
-    "title": "Landing Page para Evento Tecnológico",
-    "description": "Sitio informativo con agenda, ponentes, formulario de inscripción y contador regresivo.",
-    "full_description": "La landing page incluye una sección de agenda con horarios y descripciones de las charlas, un apartado para los ponentes con sus biografías y un formulario de inscripción. También cuenta con un contador regresivo para el evento y enlaces a redes sociales. La página está optimizada para SEO y tiene un diseño atractivo y responsivo. Se implementaron animaciones sutiles para mejorar la experiencia del usuario.",
-    "images": [
-      { "url": "/images/project-placeholder.png", "alt": "Project placeholder" }
-    ],
-    "start_date": "2023-08-01",
-    "end_date": "2023-08-20",
-    "challenges": "Entrega rápida con alta performance y diseño atractivo.",
-    "long_role_explanation": "Me encargué del diseño y desarrollo completo del sitio, enfocándome en performance, SEO y accesibilidad.",
-    "technologies": ["Next.js", "TailwindCSS", "Framer Motion", "Vercel"],
-    "slug": "landing-page-evento-tecnologico"
+    "slug": "nicer"
   }
 ]

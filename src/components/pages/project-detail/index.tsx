@@ -48,7 +48,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
         animate={{ y: 0 }}
         exit={{ y: 80 }}
         transition={{ duration: 0.3 }}
-        className="flex flex-col layout items-start w-[50vw] min-h-screen h-full p-4 relative"
+        className="flex flex-col layout items-start md:w-[50vw] min-h-screen h-full p-4 relative"
       >
         <div className="py-8">
           <h3 className="text-2xl font-bold">{project?.title}</h3>
@@ -65,7 +65,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
           ]}
         >
           <CarouselContent>
-            <CarouselItem>
+            <CarouselItem className="flex items-center justify-center">
               <Image
                 src={project?.images[0].url || ''}
                 width="1000"
@@ -76,7 +76,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
             </CarouselItem>
             <CarouselItem>
               <Image
-                src={project?.images[0].url || ''}
+                src={project?.images[1].url || ''}
                 width="1000"
                 height={1000}
                 alt={project?.title || ''}
@@ -85,7 +85,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
             </CarouselItem>
             <CarouselItem>
               <Image
-                src={project?.images[0].url || ''}
+                src={project?.images[2].url || ''}
                 height="1000"
                 width="1000"
                 alt={project?.title || ''}
@@ -111,7 +111,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
           </motion.div>
           {project?.start_date && project?.end_date && (
             <p className=" text-gray-500">
-              From {project?.start_date} to {project?.end_date}
+              {project?.start_date} - {project?.end_date}
             </p>
           )}
         </div>
