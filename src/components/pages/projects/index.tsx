@@ -29,7 +29,9 @@ export default function ProjectsPageComponent() {
           {t('ProjectsPage.title')}
         </h1>
         {projects.length > 0 &&
-          projects.map((project) => <ProjectCard key={project.id} data={project} />)}
+          projects
+            .filter((_, index) => index < 6)
+            .map((project) => <ProjectCard key={project.id} data={project} />)}
       </main>
     </div>
   );

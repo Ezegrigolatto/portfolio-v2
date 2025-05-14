@@ -13,7 +13,6 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-full">
-      <h4 className="text-2xl font-bold mb-4">{t('ContactForm.title')}</h4>
       <h2 className="text-3xl font-semibold mb-8">{t('ContactForm.cta')}</h2>
       <p className="text-center text-gray-500">
         {t('ContactForm.description1')}

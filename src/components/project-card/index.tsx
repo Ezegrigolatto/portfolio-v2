@@ -3,12 +3,14 @@ import { AnimatePresence, motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 interface ProjectCardProps {
   data: Project;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
+  const t = useTranslations();
   return (
     <AnimatePresence>
       <Link href={`/projects/${data.slug}`}>
@@ -46,7 +48,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
               ))}
             </motion.div>
             <div className="z-10 font-bold flex items-center justify-end mt-6 gap-2 ">
-              <p>See more</p>
+              <p>{t("ProjectsPage.cta-button")}</p>
               <ArrowRight className="ml-1" size={16} />
             </div>
           </div>

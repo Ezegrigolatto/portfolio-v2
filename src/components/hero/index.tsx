@@ -37,6 +37,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         />
+        <div className="absolute inset-0 bg-black/40"></div>
       </motion.div>
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
@@ -58,7 +59,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           </span>
         </motion.h1>
         <motion.h3
-          className="text-3xl font-bold text-center text-white mt-4 w-2/3"
+          className="text-2xl font-bold text-center text-white mt-4 w-2/3"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
@@ -79,7 +80,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          <Button className="z-10 text-white font-bold cursor-pointer mt-4 bg-black/30 hover:bg-black/40">
+          <Button className="z-10 text-white font-bold cursor-pointer mt-4 bg-black/30 hover:bg-black/40" size="lg">
             <Link href="/about-me">{t('HomePage.hero.cta-button')}</Link>
             <motion.div
               className="flex items-center justify-center"

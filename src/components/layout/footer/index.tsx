@@ -10,7 +10,7 @@ const Footer = () => {
   const t = useTranslations();
   return (
     <AnimatePresence>
-      <footer className="w-full h-40 bg-foreground text-background flex items-end justify-between px-8 md:px-20 py-10">
+      <footer className="w-full h-40 bg-foreground text-background flex items-end justify-between px-8 md:px-20 py-10 mt-24 lg:mt-48">
         <div className="flex flex-col items-start justify-center gap-2">
           <p className="text-sm">
             {t('Footer.text1')} <span className="text-red-500">❤</span>

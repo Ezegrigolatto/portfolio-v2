@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <motion.header
       className={cn(
-        'bg-[lightgray]/25 dark:bg-[lightgray]/5 shadow-xs fixed inset-x-0 top-4 z-40 mx-auto flex h-[60px] max-w-5xl items-center justify-between rounded-2xl px-8 saturate-100 backdrop-blur-[10px] transition-colors'
+        'bg-[darkgray]/25 dark:bg-[darkgray]/50 shadow-xs fixed inset-x-0 top-4 z-40 mx-auto flex h-[60px] max-w-5xl items-center justify-between rounded-2xl px-8 saturate-100 backdrop-blur-[10px] transition-colors'
       )}
       initial={{
         y: -100,

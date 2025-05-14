@@ -20,7 +20,7 @@ const ContactMeSection: React.FC = () => {
     },
   };
   return (
-    <motion.div
+    <motion.section
       initial="initial"
       animate={isInView ? 'animate' : 'initial'}
       variants={variants}
@@ -28,7 +28,7 @@ const ContactMeSection: React.FC = () => {
       transition={{
         duration: 0.5,
       }}
-      className="my-12 lg:my-24 max-w-[70vw]"
+      className="my-12 max-w-[70vw]"
     >
       <motion.div
         className="mt-12 flex"
@@ -46,7 +46,7 @@ const ContactMeSection: React.FC = () => {
       >
         <ContactForm />
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 };
 

@@ -27,7 +27,7 @@ export default function HomePageComponent() {
   return (
     <div className="flex flex-col min-h-screen w-full justify-center">
       <main className="flex-1 w-full flex flex-col items-center justify-center">
-        <section className="w-full md:py-12 lg:py-24">
+        <section className="w-full md:mt-24">
           <Hero />
         </section>
         <HighlightedProjectsSection projects={projects.filter((_, index) => index < 2)} />

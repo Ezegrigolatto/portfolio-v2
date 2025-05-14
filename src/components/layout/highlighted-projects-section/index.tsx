@@ -32,7 +32,7 @@ const HighlightedProjectsSection: React.FC<HighlightedProjectsSectionProps> = ({
     },
   };
   return (
-    <motion.div
+    <motion.section
     ref={projectsRef}
       initial="initial"
       animate={isInView ? 'animate' : 'initial'}
@@ -40,7 +40,7 @@ const HighlightedProjectsSection: React.FC<HighlightedProjectsSectionProps> = ({
       transition={{
         duration: 0.5,
       }}
-      className="my-12 lg:my-24 max-w-[70vw]"
+      className="my-12  max-w-[70vw]"
     >
       <motion.h2
         className="text-center text-3xl font-semibold"
@@ -89,7 +89,7 @@ const HighlightedProjectsSection: React.FC<HighlightedProjectsSectionProps> = ({
         {t('HomePage.projects.cta-button')}
         </Link>
       </div>
-    </motion.div>
+    </motion.section>
   );
 };
 

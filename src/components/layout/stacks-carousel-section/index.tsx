@@ -24,42 +24,40 @@ const StacksCarouselSection: React.FC = () => {
     },
   };
   return (
-    <>
-      <motion.div
-        initial="initial"
-        animate={isInView ? 'animate' : 'initial'}
-        variants={variants}
-        ref={sectionRef}
-        transition={{
-          duration: 0.5,
+    <motion.section
+      initial="initial"
+      animate={isInView ? 'animate' : 'initial'}
+      variants={variants}
+      ref={sectionRef}
+      transition={{
+        duration: 0.5,
+      }}
+      className="my-12 w-full overflow-hidden relative"
+    >
+      <motion.h2
+        className="text-center text-3xl font-semibold"
+        initial={{
+          y: 30,
+          opacity: 0,
         }}
-        className="mt-12 lg:mt-24 w-full overflow-hidden relative"
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          duration: 0.3,
+        }}
       >
-        <div className="mb-12">
-          <motion.h2
-            className="text-center text-3xl font-semibold"
-            initial={{
-              y: 30,
-              opacity: 0,
-            }}
-            animate={{
-              y: 0,
-              opacity: 1,
-            }}
-            transition={{
-              duration: 0.3,
-            }}
-          >
         {t('HomePage.stacks.title')}
-        </motion.h2>
-        </div>
+      </motion.h2>
+      <div className="mt-12">
         <InfiniteCarousel
           gap="16px"
           elements={DATA.filter((_, index) => index <= DATA.length / 2).map((item) => (
             <CarouselItem key={item.label} item={item} />
           ))}
         />
-      </motion.div>
+      </div>
       <motion.div
         initial="initial"
         animate={isInView ? 'animate' : 'initial'}
@@ -78,7 +76,7 @@ const StacksCarouselSection: React.FC = () => {
           reverse
         />
       </motion.div>
-    </>
+    </motion.section>
   );
 };
 

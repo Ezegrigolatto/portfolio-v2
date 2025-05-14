@@ -42,5 +42,159 @@
       "Typescript"
     ],
     "slug": "nicer"
+  },
+  {
+    "id": "3",
+    "title": "1816 | Economía y Estrategia",
+    "description": "La consultora 1816 | Economía y Estrategia es una firma argentina especializada en análisis macroeconómico y financiero.",
+    "full_description": "1816 se destaca por el uso intensivo de herramientas de Big Data para proveer informes detallados y asesoramiento técnico a inversores institucionales, empresas y entidades del sistema financiero. Su objetivo principal es brindar herramientas basadas en datos para comprender el contexto económico argentino y regional, evaluar riesgos y tomar decisiones informadas.",
+    "images": [
+      { "url": "/images/1816/1816-1.png", "alt": "1816 image 1" },
+      { "url": "/images/1816/1816-2.png", "alt": "1816 image 2" },
+      { "url": "/images/1816/1816-3.png", "alt": "1816 image 3" },
+      { "url": "/images/1816/1816-4.png", "alt": "1816 image 4" }
+    ],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "Principalmente tratar de comprender la lógica de negocio y la forma en la que los datos eran utilizados para generar reportes y graficos. Ademas, tomar un proyecto que ya estaba en marcha y adaptarme a la forma de trabajo del equipo en tiempos acotados.",
+    "long_role_explanation": "Inicialmente me uní al proyecto para cubrir un periodo vacacional, pero luego debido al buen desempeño y a la rapida adaptacion al equipo, me quedé como desarrollador frontend por un periodo mas largo. Durante mi tiempo allí, trabajé en la creación de herramientas de análisis y visualización de instrumentos financieros, así como en la implementación e integración de gráficos y dashboards interactivos.",
+    "technologies": ["React", "MaterialUI", "Styled Components", "Typescript"],
+    "slug": "1816"
+  },
+  {
+    "id": "4",
+    "title": "Trac",
+    "description": "TRAC es una plataforma todo-en-uno para artistas que combina distribución musical, Web3 y venta de merchandising sin inventario.",
+    "full_description": "TRAC es una startup de tecnología musical con sede en Los Ángeles. Su objetivo es empoderar a artistas independientes mediante una plataforma que integra distribución musical, venta de merchandising personalizado y herramientas de monetización basadas en tecnologías Web3. Con TRAC, los artistas pueden lanzar su música en más de 40 plataformas de streaming, gestionar pagos en USD o criptomonedas, y crear tokens únicos para incentivar la participación de sus fans. La plataforma también ofrece páginas personalizadas para cada artista, facilitando la conexión directa con su audiencia y la gestión de su marca personal.",
+    "images": [
+      { "url": "/images/trac/trac-1.png", "alt": "Trac image 1" },
+      { "url": "/images/trac/trac-2.png", "alt": "Trac image 2" },
+      { "url": "/images/trac/trac-3.png", "alt": "Trac image 3" },
+      { "url": "/images/trac/trac-4.png", "alt": "Trac image 4" },
+      { "url": "/images/trac/trac-5.png", "alt": "Trac image 5" }
+    ],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "Trabajar con un equipo de desarrollo numeroso, con diferentes husos horarios y con un producto en constante evolución. Cuando me uní al equipo, la plataforma ya estaba en desarrollo, por lo que tuve que adaptarme rápidamente a la lógica de negocio y a la forma de trabajo del equipo. Además, el producto estaba en constante evolución, lo que requería una rápida adaptación a los cambios y una buena comunicación con el equipo. Tecnicamente, el desafío fue trabajar con un stack de tecnologías que no conocía, lo que me obligó a aprender y aplicarlo rápidamente.",
+    "long_role_explanation": "Me uní al equipo de TRAC como desarrollador frontend, donde trabajé a la par de otras personas en la creación de una plataforma web para artistas. Dentro de las tareas que realicé, se encuentran la integración de dos sitios webs a un backend compartido, ademas de crear un blog con Sanity (Un CMS Headless).",
+    "technologies": [
+      "AWS",
+      "React",
+      "Typescript",
+      "Styled Components",
+      "Sanity",
+      "Ant Design",
+      "Next.js"
+    ],
+    "slug": "trac"
+  },
+  {
+    "id": "5",
+    "title": "Reedy",
+    "description": "¿Eres estudiante o universitario y necesitas una computadora? Con Reedy podrás elegir la que mejor se adapte a tus necesidades, conservarla todo el tiempo que necesites y devolverla cuando quieras.",
+    "full_description": "En lugar de pensar en el hardware como un objeto a comprar, Reedy ofrece a los estudiantes un servicio innovador de alquiler de un ordenador con el rendimiento adecuado a sus necesidades y con garantía de uso durante todo el periodo de estudios. Los estudiantes pueden elegir entre diferentes “perfiles tecnológicos” (ordenadores con distintos niveles de rendimiento y prestaciones).",
+    "images": [
+      { "url": "/images/reedy/reedy-1.png", "alt": "Reedy image 1" },
+      { "url": "/images/reedy/reedy-2.png", "alt": "Reedy image 2" },
+      { "url": "/images/reedy/reedy-3.png", "alt": "Reedy image 3" },
+      { "url": "/images/reedy/reedy-4.png", "alt": "Reedy image 4" },
+      { "url": "/images/reedy/reedy-5.png", "alt": "Reedy image 5" },
+      { "url": "/images/reedy/reedy-6.png", "alt": "Reedy image 6" }
+    ],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "Confeccion de un sistema de gestión de usuarios y autenticación, confeccion de un sistema de gestión de inventario, alquileres y pagos",
+    "long_role_explanation": "Durante el desarrollo de Reedy, participé de la confección del frontend de 3 sitios web diferentes, una landing page, un sitio web donde los estudiantes se registran y gestionan su alquiler, y un sitio web para los administradores donde gestionan el inventario y los pagos. En el caso de la landing page se utilizó Next JS, mientras que para los otros dos sitios se utilizó React con Vite.",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Vite",
+      "Typescript",
+      "Styled Components",
+      "MaterialUI"
+    ],
+    "slug": "reedy"
+  },
+  {
+    "id": "6",
+    "title": "Sinapsis News",
+    "description": "Sinapsis News es el punto de partida para la creación de tu propio portal de noticias. Con un diseño moderno y una interfaz intuitiva, podrás crear un sitio web atractivo y funcional en minutos.",
+    "full_description": "Sinapsis News es un web template que permite a los usuarios crear su propio portal de noticias de manera rápida y sencilla, sin preocuparse por la programación. Con un diseño moderno y una interfaz intuitiva, los usuarios pueden cargar sus noticias a través de Sanity, un CMS Headless, o aprovechar el migrador de contenido para importar noticias desde tu actual sitio web. La plataforma está diseñada para ser fácil de usar y posee soporte para anuncios a través de Google Ad Manager. Cuenta además con una aplicación móvil nativa para iOS y Android, lo que permite a los usuarios acceder a su contenido desde cualquier lugar y en cualquier momento.",
+    "images": [
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-1.png",
+        "alt": "Sinapsis News image 1"
+      },
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-2.png",
+        "alt": "Sinapsis News image 2"
+      },
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-3.png",
+        "alt": "Sinapsis News image 3"
+      },
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-4.png",
+        "alt": "Sinapsis News image 4"
+      }
+    ],
+    "start_date": "Febrero de 2025",
+    "end_date": "En desarrollo",
+    "challenges": "Creación de un template web integrado con un CMS Headless, manteniento tipados lo mas genérico posible para que el cliente pueda cargar su contenido sin problemas. Integración de publicidad a través de Google Ad Manager y configuración de SEO muy detallada para cada página, dado que en este rubro el SEO es fundamental.",
+    "long_role_explanation": "Me encargo del desarrollo y mantenimiento del frontend de la plataforma, así como de la integración con el CMS Headless con soporte para vista en tiempo real de los cambios previo a la publicación del mismo. Por otro lado también me encargo del desarrollo y mantenimiento de los esquemas, tipados y publicación del sitio utilizado como interfaz de carga del contenido.",
+    "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
+    "slug": "sinapsis-news"
+  },
+  {
+    "id": "7",
+    "title": "Sinapsis Site",
+    "description": "",
+    "full_description": "",
+    "images": [],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "",
+    "long_role_explanation": "",
+    "technologies": [],
+    "slug": ""
+  },
+  {
+    "id": "9",
+    "title": "SRF",
+    "description": "",
+    "full_description": "",
+    "images": [],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "",
+    "long_role_explanation": "",
+    "technologies": [],
+    "slug": ""
+  },
+  {
+    "id": "10",
+    "title": "Regitech POS",
+    "description": "",
+    "full_description": "",
+    "images": [],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "",
+    "long_role_explanation": "",
+    "technologies": [],
+    "slug": ""
+  },
+  {
+    "id": "11",
+    "title": "Sinapsis",
+    "description": "",
+    "full_description": "",
+    "images": [],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "",
+    "long_role_explanation": "",
+    "technologies": [],
+    "slug": ""
   }
 ]

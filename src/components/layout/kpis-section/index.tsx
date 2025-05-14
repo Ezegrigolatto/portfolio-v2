@@ -3,7 +3,6 @@
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
 
-import { useTranslations } from 'next-intl';
 import { ClockIcon, FolderKanban, Smile } from 'lucide-react';
 import Kpi from '@/components/kpi';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
@@ -53,7 +52,6 @@ const KPIS = [
 const KpisSection: React.FC = () => {
   const kpisRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(kpisRef, { once: true, margin: '-100px' });
-  const t = useTranslations();
 
   const variants = {
     initial: {
@@ -66,7 +64,7 @@ const KpisSection: React.FC = () => {
     },
   };
   return (
-    <motion.div
+    <motion.section
       initial="initial"
       animate={isInView ? 'animate' : 'initial'}
       variants={variants}
@@ -74,24 +72,8 @@ const KpisSection: React.FC = () => {
       transition={{
         duration: 0.5,
       }}
-      className="my-12 lg:my-24 max-w-[70vw]"
+      className="my-12 max-w-[70vw]"
     >
-      <motion.h2
-        className="text-center text-3xl font-semibold"
-        initial={{
-          y: 30,
-          opacity: 0,
-        }}
-        animate={{
-          y: 0,
-          opacity: 1,
-        }}
-        transition={{
-          duration: 0.3,
-        }}
-      >
-        {t('HomePage.kpis.title')}
-      </motion.h2>
       <motion.div
         className="mt-12 flex gap-8 flex-wrap justify-center"
         initial={{
@@ -110,7 +92,7 @@ const KpisSection: React.FC = () => {
           <Kpi key={kpi.label} data={kpi} />
         ))}
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 };
 

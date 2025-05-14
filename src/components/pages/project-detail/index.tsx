@@ -65,33 +65,17 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
           ]}
         >
           <CarouselContent>
-            <CarouselItem className="flex items-center justify-center">
-              <Image
-                src={project?.images[0].url || ''}
-                width="1000"
-                height="1000"
-                alt={project?.title || ''}
-                className="w-full rounded-xl"
-              />
-            </CarouselItem>
-            <CarouselItem>
-              <Image
-                src={project?.images[1].url || ''}
-                width="1000"
-                height={1000}
-                alt={project?.title || ''}
-                className="w-full rounded-xl"
-              />
-            </CarouselItem>
-            <CarouselItem>
-              <Image
-                src={project?.images[2].url || ''}
-                height="1000"
-                width="1000"
-                alt={project?.title || ''}
-                className="w-full rounded-xl"
-              />
-            </CarouselItem>
+            {project?.images.map((image, index) => (
+              <CarouselItem className="flex items-center justify-center" key={index}>
+                <Image
+                  src={image.url || ''}
+                  width="1000"
+                  height="1000"
+                  alt={project?.title || ''}
+                  className="w-full rounded-xl"
+                />
+              </CarouselItem>
+            ))}
           </CarouselContent>
         </Carousel>
         <div className="flex w-full py-8 justify-between items-center">

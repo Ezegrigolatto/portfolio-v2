@@ -53,10 +53,11 @@
     "rights": "All rights reserved."
   },
   "ProjectsPage": {
-    "title": "Projects"
+    "title": "Projects",
+    "cta-button": "See more"
   },
   "ProjectDetailPage": {
-    "cta-button": "Back to All Projects"
+    "cta-button": "View All Projects"
   },
   "AboutMePage": {
     "title1": "Who Am I?",

@@ -53,7 +53,8 @@
     "rights": "Todos los derechos reservados."
   },
   "ProjectsPage": {
-    "title": "Proyectos"
+    "title": "Proyectos",
+    "cta-button": "Ver mas"
   },
   "ProjectDetailPage": {
     "cta-button": "Ver todos los proyectos"
