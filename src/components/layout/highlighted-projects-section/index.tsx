@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useInView } from 'motion/react';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 import HighlightedProject from '@/components/highlighted-project';
 import { useTranslations } from 'next-intl';
@@ -12,14 +12,22 @@ import { buttonVariants } from '@/components/ui/button';
 
 interface HighlightedProjectsSectionProps {
   projects: Project[];
+  onViewChange?: () => void;
 }
 
 const HighlightedProjectsSection: React.FC<HighlightedProjectsSectionProps> = ({
   projects,
+  onViewChange,
 }) => {
-  const projectsRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(projectsRef, { once: true, margin: '-100px' });
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const isInView = useInView(sectionRef, { once: true, margin: '-100px' });
   const t = useTranslations();
+
+  useEffect(() => {
+    if (isInView && onViewChange) {
+      onViewChange();
+    }
+  }, [isInView, onViewChange]);
 
   const variants = {
     initial: {
@@ -33,7 +41,7 @@ const HighlightedProjectsSection: React.FC<HighlightedProjectsSectionProps> = ({
   };
   return (
     <motion.section
-    ref={projectsRef}
+      ref={sectionRef}
       initial="initial"
       animate={isInView ? 'animate' : 'initial'}
       variants={variants}
@@ -86,7 +94,7 @@ const HighlightedProjectsSection: React.FC<HighlightedProjectsSectionProps> = ({
             'rounded-xl'
           )}
         >
-        {t('HomePage.projects.cta-button')}
+          {t('HomePage.projects.cta-button')}
         </Link>
       </div>
     </motion.section>

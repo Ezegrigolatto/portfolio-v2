@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             height={630}
             src={data.images[0].url}
             alt={data.title}
-            className="hidden md:block min-h-64 h-full w-[420px] object-cover rounded-lg -translate-x-12 border shadow-2xl dark:shadow-zinc-800 "
+            className="hidden md:block min-h-64 h-full w-[420px] object-cover rounded-lg -translate-x-12 border shadow-2xl dark:shadow-zinc-800"
           />
           <div className="flex flex-col w-full">
             <div className="py-4">

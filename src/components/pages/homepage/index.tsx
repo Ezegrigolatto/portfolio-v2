@@ -4,12 +4,14 @@ import Hero from '@/components/hero';
 import ContactMeSection from '@/components/layout/contact-section';
 import HighlightedProjectsSection from '@/components/layout/highlighted-projects-section';
 import KpisSection from '@/components/layout/kpis-section';
+import ScrollHint from '@/components/layout/scroll-hint';
 import StacksCarouselSection from '@/components/layout/stacks-carousel-section';
 import { Project } from '@/types';
 import React from 'react';
 
 export default function HomePageComponent() {
   const [projects, setProjects] = React.useState<Project[]>([]);
+  const [showScrollHint, setShowScrollHint] = React.useState(true);
 
   React.useEffect(() => {
     const fetchProjects = async () => {
@@ -30,7 +32,12 @@ export default function HomePageComponent() {
         <section className="w-full md:mt-24">
           <Hero />
         </section>
-        <HighlightedProjectsSection projects={projects.filter((_, index) => index < 2)} />
+        {showScrollHint && (
+          <div className="my-12">
+            <ScrollHint />
+          </div>
+        )}
+        <HighlightedProjectsSection projects={projects.filter((_, index) => index < 2)} onViewChange={() =>setShowScrollHint(false)} />
         <StacksCarouselSection />
         <KpisSection />
         <ContactMeSection />
