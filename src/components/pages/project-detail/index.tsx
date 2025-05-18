@@ -24,10 +24,6 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
       try {
         const response = await (await fetch('/data.json')).json();
 
-        console.log('Projects:', response);
-
-        console.log('Slug:', slug);
-
         setProjects(response);
       } catch (error) {
         console.error('Error fetching projects:', error);
@@ -78,7 +74,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
             ))}
           </CarouselContent>
         </Carousel>
-        <div className="flex w-full py-8 justify-between items-center">
+        <div className="flex w-full py-8 justify-between items-start gap-8">
           <motion.div className="flex gap-2 flex-wrap">
             {project?.technologies.map((tech, index) => (
               <motion.span
@@ -101,7 +97,12 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
         </div>
         <div className="flex flex-col gap-8">
           <p className="text-gray-500">{project?.full_description}</p>
-          <p className="text-gray-500">{project?.long_role_explanation}</p>
+          <p
+            className="text-gray-500"
+            dangerouslySetInnerHTML={{
+              __html: project?.long_role_explanation || '',
+            }}
+          />
         </div>
       </motion.div>
       <div className="my-8 flex items-center justify-center">

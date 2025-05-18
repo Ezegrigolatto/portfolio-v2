@@ -13,11 +13,11 @@
       "title": "Hola, soy Zeki",
       "content-p1": "Soy un",
       "content-p2": "Frontend",
-      "content-p3": "software engineer con pasión por crear",
-      "content-p4": "interfaces bellas",
+      "content-p3": "Software Engineer apasionado por crear",
+      "content-p4": "interfaces bonitas",
       "content-p5": "y",
       "content-p6": "funcionales",
-      "content-p7": "centradas en el usuario.",
+      "content-p7": "centradas en la experiencia del usuario.",
       "cta-button": "Sobre mí"
     },
     "projects": {
@@ -62,8 +62,8 @@
   "AboutMePage": {
     "title1": "¿Quién soy?",
     "title2": "Más sobre mí",
-    "paragraph1": "👋 ¡Hola! Soy Zeki, un Software Engineer con base en Argentina.",
-    "paragraph2": "Soy un desarrollador frontend apasionado por construir experiencias de usuario elegantes y funcionales. Más allá de las interfaces bonitas, disfruto resolver problemas y optimizar la usabilidad.",
+    "paragraph1": "👋 ¡Hola! Soy Zeki, un Software Engineer de Argentina.",
+    "paragraph2": "Soy un desarrollador frontend apasionado por construir experiencias de usuario elegantes y funcionales. Más allá de las interfaces bonitas, disfruto resolviendo problemas y optimizando la usabilidad de los productos.",
     "paragraph3": "Tengo una sólida base en JavaScript y TypeScript, con amplia experiencia en React y su framework principal: Next.js. Trabajé con diversas librerías de estilos e integré múltiples servicios de terceros, incluyendo pasarelas de pago, APIs de Google, gráficos, sistemas de autenticación, CMS, entre otros.",
     "paragraph4": "Me considero una persona resolutiva. Me encanta cuando todo funciona, pero disfruto aún más cuando surgen desafíos, porque siempre traen oportunidades de aprendizaje. ¿Qué valor aporto a tu equipo? Soy como una navaja suiza: puedo crear interfaces desde cero, resolver bugs específicos o animar componentes, siempre me adapto y encuentro la mejor solución.",
     "paragraph5": "Además de ser desarrollador, soy profesor de matemática. Mientras estudiaba para ser docente, descubrí mi amor por los desafíos lógicos, lo que me llevó a la programación. Disfruto aprender, enseñar y compartir conocimiento. También soy fan de los videojuegos: me gustan los de estrategia, FPS y deportes.",

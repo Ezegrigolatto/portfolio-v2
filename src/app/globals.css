@@ -134,3 +134,18 @@
     transform: translateX(calc(-100% - var(--gap)));
   }
 }
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* hide scrollbar */

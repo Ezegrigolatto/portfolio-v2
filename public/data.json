@@ -2,25 +2,32 @@
   {
     "id": 1,
     "title": "Junglytics",
-    "description": "Junglytics es una plataforma de análisis para vendedores de Amazon. Permite visualizar métricas clave, gestionar inventario y optimizar la rentabilidad de productos FBA.",
-    "full_description": "Junglytics es una herramienta web orientada a vendedores de Amazon. La plataforma centraliza y visualiza datos clave de ventas, costos, comisiones, inventario y rentabilidad, permitiendo tomar decisiones basadas en métricas en tiempo real. Entre sus funcionalidades se incluyen dashboards financieros, reportes detallados de producto y herramientas para optimizar el desempeño de cada ítem en el marketplace. Su objetivo es facilitar la gestión operativa y estratégica del negocio dentro del ecosistema de Amazon",
+    "description": "Junglytics es una plataforma de análisis de datos para vendedores de Amazon. Permite visualizar métricas clave y optimizar la rentabilidad de productos FBA.",
+    "full_description": "Junglytics es una herramienta web orientada a vendedores de Amazon. La plataforma centraliza y visualiza datos clave de ventas, costos, comisiones, inventario y rentabilidad, permitiendo tomar decisiones basadas en métricas a lo largo del tiempo. Entre sus funcionalidades se incluyen dashboards financieros, reportes detallados de productos y herramientas para optimizar el desempeño de cada ítem en el marketplace. Su objetivo es facilitar la gestión operativa y estratégica del negocio dentro del ecosistema de Amazon",
     "images": [
       { "url": "/images/junglytics/junglytics-1.png", "alt": "Junglytics image 1" },
       { "url": "/images/junglytics/junglytics-2.png", "alt": "Junglytics image 2" },
       { "url": "/images/junglytics/junglytics-3.png", "alt": "Junglytics image 3" }
     ],
-    "start_date": "Marzo de 2022",
+    "start_date": "Febrero de 2022",
     "end_date": "Diciembre de 2022",
     "challenges": "Integración de multiples y variados tipos de datos, dashboards interactivos, tablas de datos, gráficos, estadisticas y reportes. Integración con APIs de terceros, autenticación y gestión de usuarios basada en roles.",
     "long_role_explanation": "Me encargué del desarrollo frontend con React, generando una interfaz visual basada en un diseño predefinido via Figma. Implementé la lógica de negocio brindada por los clientes y estuve a cargo de la implementacion de multiples tipos de graficos, tablas e informacion visual clave para el usuario.",
-    "technologies": ["React", "AWS", "MaterialUI", "Styled Components", "Typescript"],
+    "technologies": [
+      "React",
+      "AWS",
+      "MaterialUI",
+      "Styled Components",
+      "Typescript",
+      "Recharts"
+    ],
     "slug": "junglytics"
   },
   {
     "id": 2,
     "title": "Nicer",
-    "description": "Un ecosistema completo para la gestión de viajes. Gestiona itinerarios, pagos, reservas y manten comunicación con los viajeros.",
-    "full_description": "Nicer se define a si misma como el futuro de los viajes, se trata de una plataforma que brinda a los travel advisors multiples herramientas para gestionar viajes de manera eficiente y personalizada, incluyendo un sistema de gestión de itinerarios, pagos, reservas y comunicación con los viajeros. Un ecosistema todo en uno que invluye multiples sitios web y su propia aplicacion nativa.",
+    "description": "Un ecosistema completo para la gestión de viajes. Gestiona itinerarios, pagos, reservas y manten comunicación con los viajeros todo en un mismo sitio.",
+    "full_description": "Nicer se define a si misma como el futuro de los viajes, se trata de una plataforma que brinda a los travel advisors multiples herramientas para gestionar viajes de manera eficiente y personalizada, incluyendo un sistema de gestión de itinerarios, pagos, reservas y comunicación con los viajeros. Un ecosistema todo en uno que invluye multiples sitios web como lo son su portal de advisors, landing page, blog de learning, plataforma de booking, itinerario público y hasta su propia aplicacion nativa para los travelers.",
     "images": [
       { "url": "/images/nicer/nicer-2.png", "alt": "Nicer image 2" },
       { "url": "/images/nicer/nicer-1.png", "alt": "Nicer image 1" },
@@ -29,7 +36,7 @@
     "start_date": "Abril de 2024",
     "end_date": "En desarrollo",
     "challenges": "Integración de múltiples APIs de terceros, integracion de un CMS, integración de pagos, gestion de itinerarios complejos y multiples reglas de negocio. Tambien construimos nuestra propia libreria de componentes para el desarrollo frontend.",
-    "long_role_explanation": "Me encargo del desarrollo y mantenimiento del frontend de los multiples sitios web y la aplicación nativa, así como de la integración con las APIs de terceros. Actualmente coexisten 5 sitios webs diferentes y una aplicacion mobile.",
+    "long_role_explanation": "Estoy a cargo del desarrollo y mantenimiento del frontend de los multiples sitios web y la aplicación nativa, así como de la integración con las APIs de terceros. Actualmente coexisten 5 sitios webs diferentes y una aplicacion mobile en las cuales trabajo junto a un desarrollador frontend / diseñador y un backend developer. </br> </br> Los diferentes sitios web son: </br> </br> - Landing page y pagina de campañas de marketing. </br> - Portal de advisors donde los travel advisors pueden gestionar viajes, itinerarios, pagos, reservaciones y comunicarse con los viajeros a través de un chat propio. </br> - Itinerario público donde los viajeros pueden ver su itinerario rapidamente sin necesidad de loguearse a su cuenta. </br> - Blog de learning, desarrollado con un CMS Headless, este sitio permite hacer training a los travel advisors que se sumen a la plataforma. </br> - Plataforma de booking, donde los viajeros pueden hacer reservas por si mismos sin necesidad de un travel advisor. </br> - Aplicación nativa para los viajeros, donde pueden ver su itinerario, comunicarse con su travel advisor y gestionar su perfil, su información relevante y realizar los pagos correspondientes. </br> </br>",
     "technologies": [
       "React",
       "React Native",
@@ -37,9 +44,11 @@
       "Sass",
       "AWS",
       "Vite",
+      "Styled Components",
       "Contentful",
       "TailwindCSS",
-      "Typescript"
+      "Typescript",
+      "Stripe"
     ],
     "slug": "nicer"
   },
@@ -54,10 +63,10 @@
       { "url": "/images/1816/1816-3.png", "alt": "1816 image 3" },
       { "url": "/images/1816/1816-4.png", "alt": "1816 image 4" }
     ],
-    "start_date": "",
-    "end_date": "",
+    "start_date": "Mayo de 2023",
+    "end_date": "Septiembre de 2023",
     "challenges": "Principalmente tratar de comprender la lógica de negocio y la forma en la que los datos eran utilizados para generar reportes y graficos. Ademas, tomar un proyecto que ya estaba en marcha y adaptarme a la forma de trabajo del equipo en tiempos acotados.",
-    "long_role_explanation": "Inicialmente me uní al proyecto para cubrir un periodo vacacional, pero luego debido al buen desempeño y a la rapida adaptacion al equipo, me quedé como desarrollador frontend por un periodo mas largo. Durante mi tiempo allí, trabajé en la creación de herramientas de análisis y visualización de instrumentos financieros, así como en la implementación e integración de gráficos y dashboards interactivos.",
+    "long_role_explanation": "Inicialmente me uní al proyecto para cubrir un periodo vacacional, pero luego debido al buen desempeño y a la rapida adaptacion al equipo continué trabajando como desarrollador frontend por un periodo mas largo. Durante mi tiempo allí, trabajé en la creación de herramientas de análisis y visualización de instrumentos financieros, así como en la implementación e integración de gráficos y dashboards interactivos.",
     "technologies": ["React", "MaterialUI", "Styled Components", "Typescript"],
     "slug": "1816"
   },
@@ -73,10 +82,10 @@
       { "url": "/images/trac/trac-4.png", "alt": "Trac image 4" },
       { "url": "/images/trac/trac-5.png", "alt": "Trac image 5" }
     ],
-    "start_date": "",
-    "end_date": "",
+    "start_date": "Abril de 2022",
+    "end_date": "Diciembre de 2022",
     "challenges": "Trabajar con un equipo de desarrollo numeroso, con diferentes husos horarios y con un producto en constante evolución. Cuando me uní al equipo, la plataforma ya estaba en desarrollo, por lo que tuve que adaptarme rápidamente a la lógica de negocio y a la forma de trabajo del equipo. Además, el producto estaba en constante evolución, lo que requería una rápida adaptación a los cambios y una buena comunicación con el equipo. Tecnicamente, el desafío fue trabajar con un stack de tecnologías que no conocía, lo que me obligó a aprender y aplicarlo rápidamente.",
-    "long_role_explanation": "Me uní al equipo de TRAC como desarrollador frontend, donde trabajé a la par de otras personas en la creación de una plataforma web para artistas. Dentro de las tareas que realicé, se encuentran la integración de dos sitios webs a un backend compartido, ademas de crear un blog con Sanity (Un CMS Headless).",
+    "long_role_explanation": "Me uní al equipo de TRAC como desarrollador frontend, donde trabajé a la par de otras personas en la creación de una plataforma web para artistas. Dentro de las tareas que realicé, se encuentran la integración de dos sitios webs a un backend compartido, ademas de crear una tercera pagina web en formato blog con Sanity (Un CMS Headless).",
     "technologies": [
       "AWS",
       "React",
@@ -101,11 +110,12 @@
       { "url": "/images/reedy/reedy-5.png", "alt": "Reedy image 5" },
       { "url": "/images/reedy/reedy-6.png", "alt": "Reedy image 6" }
     ],
-    "start_date": "",
-    "end_date": "",
+    "start_date": "Junio de 2023",
+    "end_date": "Septiembre de 2023",
     "challenges": "Confeccion de un sistema de gestión de usuarios y autenticación, confeccion de un sistema de gestión de inventario, alquileres y pagos",
     "long_role_explanation": "Durante el desarrollo de Reedy, participé de la confección del frontend de 3 sitios web diferentes, una landing page, un sitio web donde los estudiantes se registran y gestionan su alquiler, y un sitio web para los administradores donde gestionan el inventario y los pagos. En el caso de la landing page se utilizó Next JS, mientras que para los otros dos sitios se utilizó React con Vite.",
     "technologies": [
+      "AWS",
       "React",
       "Next.js",
       "Vite",
@@ -118,8 +128,8 @@
   {
     "id": "6",
     "title": "Sinapsis News",
-    "description": "Sinapsis News es el punto de partida para la creación de tu propio portal de noticias. Con un diseño moderno y una interfaz intuitiva, podrás crear un sitio web atractivo y funcional en minutos.",
-    "full_description": "Sinapsis News es un web template que permite a los usuarios crear su propio portal de noticias de manera rápida y sencilla, sin preocuparse por la programación. Con un diseño moderno y una interfaz intuitiva, los usuarios pueden cargar sus noticias a través de Sanity, un CMS Headless, o aprovechar el migrador de contenido para importar noticias desde tu actual sitio web. La plataforma está diseñada para ser fácil de usar y posee soporte para anuncios a través de Google Ad Manager. Cuenta además con una aplicación móvil nativa para iOS y Android, lo que permite a los usuarios acceder a su contenido desde cualquier lugar y en cualquier momento.",
+    "description": "Sinapsis News es el punto de partida para la creación de tu propio portal de noticias. Con un diseño moderno y una interfaz intuitiva, podrás crear un sitio web atractivo y funcional sin preocuparte por el código.",
+    "full_description": "Sinapsis News es un web template que permite a los usuarios crear su propio portal de noticias de manera rápida y sencilla, sin preocuparse por la programación. Con un diseño moderno y una interfaz intuitiva ya integrada a un CMS, los usuarios pueden cargar sus noticias a través de Sanity, o aprovechar una herramienta opcional como lo es el migrador de contenido para importar noticias desde tu actual sitio web. La plataforma está diseñada para ser fácil de usar y posee soporte para anuncios a través de Google Ad Manager. Cuenta además con una aplicación móvil nativa para iOS y Android, lo que permite a los usuarios acceder a su contenido desde cualquier lugar y en cualquier momento.",
     "images": [
       {
         "url": "/images/sinapsis-news/sinapsis-news-1.png",
@@ -141,7 +151,7 @@
     "start_date": "Febrero de 2025",
     "end_date": "En desarrollo",
     "challenges": "Creación de un template web integrado con un CMS Headless, manteniento tipados lo mas genérico posible para que el cliente pueda cargar su contenido sin problemas. Integración de publicidad a través de Google Ad Manager y configuración de SEO muy detallada para cada página, dado que en este rubro el SEO es fundamental.",
-    "long_role_explanation": "Me encargo del desarrollo y mantenimiento del frontend de la plataforma, así como de la integración con el CMS Headless con soporte para vista en tiempo real de los cambios previo a la publicación del mismo. Por otro lado también me encargo del desarrollo y mantenimiento de los esquemas, tipados y publicación del sitio utilizado como interfaz de carga del contenido.",
+    "long_role_explanation": "Me encargo del desarrollo y mantenimiento del frontend de la plataforma, así como de la integración con el CMS Headless. Por otro lado también me encargo del desarrollo y mantenimiento de los esquemas, tipados y publicación del sitio utilizado como interfaz de carga del contenido.",
     "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
     "slug": "sinapsis-news"
   },
@@ -175,7 +185,7 @@
     "id": "9",
     "title": "SRF Convocation",
     "description": "Self-Realization Fellowship es una organización espiritual fundada por Paramahansa Yogananda con el propósito de difundir las enseñanzas del Kriya Yoga y promover la realización personal y la comunión directa con Dios.",
-    "full_description": "SRF ayuda y guía a las personas en el camino hacia una vida equilibrada, interiormente plena y espiritualmente consciente, integrando los principios del yoga con valores universales presentes en las principales religiones a través de sus lecciones, actividades, libros y centros de meditación alrededor del mundo. Convocation portal es un sitio web desarrollado para la organización, donde los usuarios pueden registrarse para participar del evento anual principal, el cual incluye multiples actividades organizadas para los cuales los usuarios deben gestionar individualmente a cuales asistir así como seleccionar add-ons, horarios, etc. El contenido del sitio proviene de un headless CMS (Contentful) e incluye un sistema de gestión de usuarios complejo con autenticación SSO, sistema de pagos, gestión de eventos y calendarios. En paralelo se desarrolló una aplicación mobile bajo la herramienta Retool para escanear QR codes y gestionar la asistencia de los usuarios a los eventos.",
+    "full_description": "SRF ayuda y guía a las personas en el camino hacia una vida equilibrada, interiormente plena y espiritualmente consciente, integrando los principios del yoga con valores universales presentes en las principales religiones a través de sus lecciones, actividades, libros y centros de meditación alrededor del mundo. Convocation portal es un sitio web desarrollado para la organización, donde los usuarios pueden registrarse para participar del evento anual principal, el cual incluye multiples actividades organizadas para los cuales los usuarios deben gestionar su asistencia individualmente así como seleccionar add-ons, horarios, etc. El contenido del sitio proviene de un headless CMS (Contentful) e incluye un sistema de gestión de usuarios complejo con autenticación SSO, sistema de pagos, gestión de eventos y calendarios. En paralelo se desarrolló una aplicación mobile para escanear QR codes y gestionar la asistencia de los usuarios a los eventos.",
     "images": [
       {
         "url": "/images/srf-convocation/srf-convocation-1.png",
@@ -207,7 +217,7 @@
     "id": "10",
     "title": "SRF Youth Services",
     "description": "Self-Realization Fellowship es una organización espiritual fundada por Paramahansa Yogananda con el propósito de difundir las enseñanzas del Kriya Yoga y promover la realización personal y la comunión directa con Dios.",
-    "full_description": "SRF ayuda y guía a las personas en el camino hacia una vida equilibrada, interiormente plena y espiritualmente consciente, integrando los principios del yoga con valores universales presentes en las principales religiones a través de sus lecciones, actividades, libros y centros de meditación alrededor del mundo. Youth Services es un sitio web desarrollado para la organización, donde los usuarios de la plataforma principal pueden registrar a niños y adolescentes para participar de actividades y programas organizados por la organización. El contenido del sitio proviene de un headless CMS (Contentful) e incluye un sistema de gestión de usuarios complejo con autenticación SSO, sistema de pagos, gestión de eventos e integración a un servicio de terceros para firma de documentos de consentimiento.",
+    "full_description": "SRF ayuda y guía a las personas en el camino hacia una vida equilibrada, interiormente plena y espiritualmente consciente, integrando los principios del yoga con valores universales presentes en las principales religiones a través de sus lecciones, actividades, libros y centros de meditación alrededor del mundo. Youth Services es un sitio web desarrollado para la organización, donde los usuarios de la plataforma principal pueden registrar a niños y adolescentes para participar de actividades y programas brindados por la organización. El contenido del sitio proviene de un headless CMS (Contentful) e incluye un sistema de gestión de usuarios complejo con autenticación SSO, sistema de pagos, gestión de eventos e integración a un servicio de terceros para firma de documentos de consentimiento.",
     "images": [
       {
         "url": "/images/srf-youth-services/srf-youth-services-1.png",
@@ -237,7 +247,7 @@
   },
   {
     "id": "11",
-    "title": "Regitech POS",
+    "title": "Regitech POS (Point of Sale)",
     "description": "Regitech es un comercio minorista de venta de productos y accesorios tecnológicos, con el plus de ofrecer servicios de reparación con tecnología de punta.",
     "full_description": "Regitech es un emprendimiento propio que combina la venta de productos y accesorios tecnológicos con servicios de reparación de diversos dispositivos. La tienda se destaca por su enfoque en la calidad a la hora de ofrecer sus servicios al cliente y por su atención personalizada. Regitech POS surgió como una necesidad de gestionar las ventas, clientes, inventario y servicios de reparación de manera eficiente luego del crecimiento sostenido del negocio a lo largo del tiempo. La plataforma permite gestionar el inventario de productos, sus clientes, proveedores, organizar las ordenes de reparación y ventas, así como generar reportes y estadísticas sobre el desempeño del negocio todo de manera online y en tiempo real.",
     "images": [
@@ -257,7 +267,7 @@
     "start_date": "Abril de 2025",
     "end_date": "En desarrollo",
     "challenges": "Confección de un sistema de gestión de usuarios y autenticación con roles. Confección de un sistema de gestión de inventario, ventas, proveedores y ordenes de reparación. Generación de reportes y estadísticas sobre el desempeño del negocio. Desarrollo de una base de datos solida y escalable para soportar el crecimiento del negocio a lo largo del tiempo.",
-    "long_role_explanation": "Siendo este un proyecto personal, me encargo del desarrollo de la totalidad de la plataforma. Desde la creación de la base de datos con sus esquemas de entidades, el backend, el frontend, la maquetación y la integración de los diferentes componentes, el host y los despliegues. Trabajo a la par de un diseñador gráfico que se encarga de la creación del diseño del sitio a partir de la identidad visual del negocio, asi como tambien trabajo consultando con el equipo de ventas del comercio para entender sus necesidades e ir ajustando el producto a medida que avanza el desarrollo.",
+    "long_role_explanation": "Siendo este un proyecto personal, me encargo del desarrollo de la totalidad de la plataforma. Desde la creación de la base de datos con sus esquemas de entidades, el backend, el frontend, la maquetación e integración de los diferentes componentes, el host y los despliegues. Trabajo a la par de un diseñador gráfico que se encarga de la creación del diseño del sitio a partir de la identidad visual del negocio, asi como tambien trabajo consultando con el equipo de ventas del comercio para entender sus necesidades e ir ajustando el producto a medida que avanza el desarrollo.",
     "technologies": [
       "React",
       "ShadCn",
@@ -273,7 +283,7 @@
     "id": "12",
     "title": "Otras tareas",
     "description": "Ademas de los proyectos mencionados, a lo largo de mi carrera he trabajado en otros aspectos a medida que mi conocimiento, experiencia y habilidades fueron creciendo.",
-    "full_description": "A lo largo de mi carrera como desarrollador frontend, he tenido la oportunidad de trabajar en una variedad de proyectos y tareas que han contribuido a mi crecimiento profesional. Desde mis inicios, siempre he buscado aprender, entender el funcionamiento de las cosas y mejorar sus procesos para optimizar el tiempo, los recursos y el rendimiento. He trabajado en la creación de herramientas internas para mejorar la eficiencia del equipo, así como en la implementación de buenas prácticas de desarrollo, en la creación de documentación técnica y en brindar apoyo en proyectos externos ante dificultades tecnicas. También he participado en la creación de librerías de componentes reutilizables y en la creación de templates sobre los que montar nuevos proyectos. Como parte de mi desarrollo profesional, me ha tocado en multiples ocasiones hacer investigaciones de campo sobre posibles mejoras en el flujo de trabajo y sobre la modernización del stack de tecnologías utilizado por el equipo, así como la posterior enseñanza y capacitación a parte del equipo. En algunas situaciones me ha tocado adaptarme a un equipo ya formado, a su forma de trabajo y a su stack de tecnologías, en esos casos he aprendido a adaptarme pero tambien a proponer puntos de mejora llevando mis experiencias previas a la mesa.",
+    "full_description": "A lo largo de mi carrera como desarrollador frontend, he tenido la oportunidad de trabajar en una variedad de proyectos y tareas que han contribuido a mi crecimiento profesional. Desde mis inicios, siempre he buscado aprender, entender el funcionamiento de las cosas y mejorar sus procesos para optimizar el tiempo, los recursos y el rendimiento. He trabajado en la creación de herramientas internas para mejorar la eficiencia del equipo, así como en la implementación de buenas prácticas de desarrollo, en la creación de documentación técnica y en brindar apoyo en proyectos externos ante dificultades tecnicas. También he participado en la creación de librerías de componentes reutilizables y en la creación de templates sobre los que montar nuevos proyectos. Como parte de mi desarrollo profesional, me ha tocado en multiples ocasiones hacer investigaciones de campo sobre posibles mejoras en el flujo de trabajo y sobre la modernización del stack de tecnologías utilizado por el equipo, así como la posterior enseñanza y capacitación a parte del equipo. En algunas situaciones me ha tocado trabajar en proyectos que ya contaban con un equipo de desarrollo, en esos escenarios tuve que adaptarme a equipos ya consolidados, a su forma de trabajo y a su stack de tecnologías, en esos casos he aprendido a adaptarme pero tambien a proponer puntos de mejora llevando mis experiencias previas a la mesa.",
     "images": [
       {
         "url": "/images/other/other-1.jpg",
