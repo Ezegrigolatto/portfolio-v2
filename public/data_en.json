@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Junglytics",
+    "description": "Junglytics is a data analytics platform for Amazon sellers. It allows users to visualize key metrics and optimize the profitability of FBA products.",
+    "full_description": "Junglytics is a web tool aimed at Amazon sellers. The platform centralizes and visualizes key data on sales, costs, fees, inventory, and profitability, enabling decision-making based on metrics over time. Its features include financial dashboards, detailed product reports, and tools to optimize the performance of each item on the marketplace. Its goal is to facilitate the operational and strategic management of businesses within the Amazon ecosystem.",
+    "images": [
+      { "url": "/images/junglytics/junglytics-1.png", "alt": "Junglytics image 1" },
+      { "url": "/images/junglytics/junglytics-2.png", "alt": "Junglytics image 2" },
+      { "url": "/images/junglytics/junglytics-3.png", "alt": "Junglytics image 3" }
+    ],
+    "start_date": "February 2022",
+    "end_date": "December 2022",
+    "challenges": "Integration of multiple and diverse data types, interactive dashboards, data tables, charts, statistics, and reports. Integration with third-party APIs, authentication, and role-based user management.",
+    "long_role_explanation": "I was responsible for the frontend development using React, building a visual interface based on a predefined design from Figma. I implemented the business logic provided by the clients and handled the implementation of multiple types of charts, tables, and key visual information for the user.",
+    "technologies": [
+      "React",
+      "AWS",
+      "MaterialUI",
+      "Styled Components",
+      "Typescript",
+      "Recharts"
+    ],
+    "slug": "junglytics"
+  },
+  {
+    "id": 2,
+    "title": "Nicer",
+    "description": "A complete ecosystem for travel management. It handles itineraries, payments, bookings, and traveler communication all in one place.",
+    "full_description": "Nicer defines itself as the future of travel — a platform that provides travel advisors with multiple tools to manage trips efficiently and personally, including an itinerary management system, payments, bookings, and communication with travelers. It’s an all-in-one ecosystem that includes multiple websites such as the advisor portal, landing page, learning blog, booking platform, public itinerary, and even its own native app for travelers.",
+    "images": [
+      { "url": "/images/nicer/nicer-2.png", "alt": "Nicer image 2" },
+      { "url": "/images/nicer/nicer-1.png", "alt": "Nicer image 1" },
+      { "url": "/images/nicer/nicer-3.png", "alt": "Nicer image 3" }
+    ],
+    "start_date": "April 2024",
+    "end_date": "In progress",
+    "challenges": "Integration of multiple third-party APIs, CMS integration, payment processing, management of complex itineraries, and multiple business rules. We also built our own component library for frontend development.",
+    "long_role_explanation": "I am responsible for the development and maintenance of the frontend for multiple websites and the native application, as well as the integration with third-party APIs. Currently, there are five different websites and one mobile app on which I work alongside a frontend developer/designer and a backend developer. </br> </br> The different websites are: </br> </br> - Landing page and marketing campaign pages. </br> - Advisor portal where travel advisors can manage trips, itineraries, payments, bookings, and communicate with travelers through a built-in chat. </br> - Public itinerary where travelers can quickly view their itinerary without needing to log in. </br> - Learning blog, developed with a Headless CMS, which provides training to travel advisors joining the platform. </br> - Booking platform where travelers can make reservations on their own without needing a travel advisor. </br> - Native mobile app for travelers, where they can view their itinerary, communicate with their travel advisor, manage their profile and relevant information, and make necessary payments. </br> </br>",
+    "technologies": [
+      "React",
+      "React Native",
+      "Next.js",
+      "Sass",
+      "AWS",
+      "Vite",
+      "Styled Components",
+      "Contentful",
+      "TailwindCSS",
+      "Typescript",
+      "Stripe"
+    ],
+    "slug": "nicer"
+  },
+  {
+    "id": "3",
+    "title": "1816 | Economía y Estrategia",
+    "description": "1816 | Economía y Estrategia is an Argentine consulting firm specialized in macroeconomic and financial analysis.",
+    "full_description": "1816 stands out for its intensive use of Big Data tools to provide detailed reports and technical advice to institutional investors, companies, and entities in the financial system. Its main goal is to deliver data-driven tools to understand the Argentine and regional economic context, assess risks, and make informed decisions.",
+    "images": [
+      { "url": "/images/1816/1816-1.png", "alt": "1816 image 1" },
+      { "url": "/images/1816/1816-2.png", "alt": "1816 image 2" },
+      { "url": "/images/1816/1816-3.png", "alt": "1816 image 3" },
+      { "url": "/images/1816/1816-4.png", "alt": "1816 image 4" }
+    ],
+    "start_date": "May 2023",
+    "end_date": "September 2023",
+    "challenges": "Mainly trying to understand the business logic and how data was used to generate reports and charts. Also, taking over an ongoing project and adapting to the team’s workflow under tight deadlines.",
+    "long_role_explanation": "I initially joined the project to cover a vacation period, but due to good performance and fast adaptation to the team, I continued working as a frontend developer for a longer period. During my time there, I worked on creating tools for financial instrument analysis and visualization, as well as implementing and integrating charts and interactive dashboards.",
+    "technologies": ["React", "MaterialUI", "Styled Components", "Typescript"],
+    "slug": "1816"
+  },
+  {
+    "id": "4",
+    "title": "Trac",
+    "description": "TRAC is an all-in-one platform for artists that combines music distribution, Web3 technology, and inventory-free merchandise sales.",
+    "full_description": "TRAC is a music tech startup based in Los Angeles. Its goal is to empower independent artists through a platform that integrates music distribution, personalized merchandise sales, and Web3-based monetization tools. With TRAC, artists can release their music on over 40 streaming platforms, manage payments in USD or cryptocurrencies, and create unique tokens to incentivize fan engagement. The platform also provides customized artist pages, enabling direct connection with their audience and better personal brand management.",
+    "images": [
+      { "url": "/images/trac/trac-1.png", "alt": "Trac image 1" },
+      { "url": "/images/trac/trac-2.png", "alt": "Trac image 2" },
+      { "url": "/images/trac/trac-3.png", "alt": "Trac image 3" },
+      { "url": "/images/trac/trac-4.png", "alt": "Trac image 4" },
+      { "url": "/images/trac/trac-5.png", "alt": "Trac image 5" }
+    ],
+    "start_date": "April 2022",
+    "end_date": "December 2022",
+    "challenges": "Working with a large development team across different time zones and with a product in constant evolution. When I joined the team, the platform was already under development, so I had to quickly adapt to the business logic and the team’s workflow. Additionally, the product was rapidly evolving, requiring fast adaptation to changes and strong communication with the team. Technically, the main challenge was working with a tech stack I was unfamiliar with, which required me to learn and apply new tools quickly.",
+    "long_role_explanation": "I joined the TRAC team as a frontend developer, working alongside others to build a web platform for artists. My tasks included integrating two websites with a shared backend and creating a third blog-style site using Sanity (a Headless CMS).",
+    "technologies": [
+      "AWS",
+      "React",
+      "Typescript",
+      "Styled Components",
+      "Sanity",
+      "Ant Design",
+      "Next.js"
+    ],
+    "slug": "trac"
+  },
+  {
+    "id": "5",
+    "title": "Reedy",
+    "description": "Are you a student in need of a computer? With Reedy, you can choose the one that best suits your needs, keep it as long as you want, and return it whenever you like.",
+    "full_description": "Instead of viewing hardware as something to buy, Reedy offers students an innovative rental service that provides them with a computer tailored to their performance needs, guaranteed for the entire duration of their studies. Students can choose from different “technology profiles” (computers with varying performance levels and features).",
+    "images": [
+      { "url": "/images/reedy/reedy-1.png", "alt": "Reedy image 1" },
+      { "url": "/images/reedy/reedy-2.png", "alt": "Reedy image 2" },
+      { "url": "/images/reedy/reedy-3.png", "alt": "Reedy image 3" },
+      { "url": "/images/reedy/reedy-4.png", "alt": "Reedy image 4" },
+      { "url": "/images/reedy/reedy-5.png", "alt": "Reedy image 5" },
+      { "url": "/images/reedy/reedy-6.png", "alt": "Reedy image 6" }
+    ],
+    "start_date": "June 2023",
+    "end_date": "September 2023",
+    "challenges": "Building a user management and authentication system, as well as a system for managing inventory, rentals, and payments.",
+    "long_role_explanation": "During Reedy's development, I worked on the frontend of three different websites: a landing page, a site where students register and manage their rentals, and an admin dashboard for managing inventory and payments. The landing page was built with Next.js, while the other two platforms were built using React with Vite.",
+    "technologies": [
+      "AWS",
+      "React",
+      "Next.js",
+      "Vite",
+      "Typescript",
+      "Styled Components",
+      "MaterialUI"
+    ],
+    "slug": "reedy"
+  },
+  {
+    "id": "6",
+    "title": "Sinapsis News",
+    "description": "Sinapsis News is the perfect starting point for building your own news portal. With a modern design and an intuitive interface, you can create an attractive and functional website without worrying about code.",
+    "full_description": "Sinapsis News is a web template that allows users to quickly and easily create their own news portal without any coding. Featuring a modern design and an intuitive interface integrated with a CMS, users can publish news through Sanity or use an optional migration tool to import articles from their existing website. The platform is user-friendly and includes support for advertising via Google Ad Manager. It also comes with a native mobile app for both iOS and Android, enabling users to access content from anywhere at any time.",
+    "images": [
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-1.png",
+        "alt": "Sinapsis News image 1"
+      },
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-2.png",
+        "alt": "Sinapsis News image 2"
+      },
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-3.png",
+        "alt": "Sinapsis News image 3"
+      },
+      {
+        "url": "/images/sinapsis-news/sinapsis-news-4.png",
+        "alt": "Sinapsis News image 4"
+      }
+    ],
+    "start_date": "February 2025",
+    "end_date": "Ongoing",
+    "challenges": "Creating a web template integrated with a Headless CMS, ensuring type definitions were as generic as possible so clients could manage their content easily. Integration with Google Ad Manager for ads, and meticulous SEO configuration for every page since SEO is critical in this field.",
+    "long_role_explanation": "I'm responsible for developing and maintaining the frontend of the platform, as well as integrating it with the Headless CMS. I also handle the creation and maintenance of content schemas, types, and the deployment of the admin interface used to manage and publish content.",
+    "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
+    "slug": "sinapsis-news"
+  },
+  {
+    "id": "7",
+    "title": "Sinapsis Site",
+    "description": "Sinapsis is a software development company focused on creating custom cloud-based solutions. With a strong emphasis on innovation and quality, it offers software development, consulting, and technical support services for businesses across different industries.",
+    "full_description": "Sinapsis is a company with a long-standing track record in building custom software. Its approach focuses on developing innovative and high-quality tech solutions tailored to each client’s specific needs. The company offers a wide range of services including web and mobile development, technology consulting, and technical support. This website provides detailed information about the company, its services, and showcases successful case studies and projects.",
+    "images": [
+      {
+        "url": "/images/sinapsis-site/sinapsis-site-1.png",
+        "alt": "Sinapsis Site image 1"
+      },
+      {
+        "url": "/images/sinapsis-site/sinapsis-site-2.png",
+        "alt": "Sinapsis Site image 2"
+      },
+      {
+        "url": "/images/sinapsis-site/sinapsis-site-3.png",
+        "alt": "Sinapsis Site image 3"
+      }
+    ],
+    "start_date": "January 2025",
+    "end_date": "Ongoing",
+    "challenges": "Building a website with Next.js that consumes data from a Headless CMS. Designing content schemas and entities for the CMS and integrating them with the frontend.",
+    "long_role_explanation": "I'm responsible for developing the site structure, organizing pages and components, and integrating the frontend with the Headless CMS and third-party services like Google Analytics and Google Tag Manager. I also created and maintain the content schemas and type definitions in the CMS, as well as the admin interface used for publishing content.",
+    "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
+    "slug": "sinapsis-site"
+  },
+  {
+    "id": "9",
+    "title": "SRF Convocation",
+    "description": "Self-Realization Fellowship is a spiritual organization founded by Paramahansa Yogananda with the purpose of spreading the teachings of Kriya Yoga and promoting personal realization and direct communion with God.",
+    "full_description": "SRF helps and guides people on the path to a balanced, inwardly fulfilled, and spiritually aware life, integrating the principles of yoga with universal values present in major religions through its lessons, activities, books, and meditation centers around the world. The Convocation portal is a website developed for the organization where users can register to participate in the main annual event, which includes multiple organized activities for which users must manage their attendance individually as well as select add-ons, schedules, etc. The site's content comes from a headless CMS (Contentful) and includes a complex user management system with SSO authentication, payment system, event management, and calendars. In parallel, a mobile app was developed to scan QR codes and manage user attendance at events.",
+    "images": [
+      {
+        "url": "/images/srf-convocation/srf-convocation-1.png",
+        "alt": "SRF Convocation image 1"
+      },
+      {
+        "url": "/images/srf-convocation/srf-convocation-2.png",
+        "alt": "SRF Convocation image 2"
+      }
+    ],
+    "start_date": "November 2023",
+    "end_date": "May 2024",
+    "challenges": "Creation of reusable components that consume content from Contentful, a Headless CMS. Integration of an SSO authentication system that detects if the user is already logged in on another organization site. Integration of Google Calendar for event management. Integration of a proprietary payment system. Creation of a tool to scan QR codes and manage user attendance at events, connected to a backend shared with the website.",
+    "long_role_explanation": "I was part of a development team responsible for multiple tasks within the project. I was in charge of creating reusable components that consume Contentful content supporting multiple languages and also interact with the backend. I also worked on integrating Google Calendar for event management, multiple development support tools such as bug trackers. Additionally, I worked on integrating a payment system and a mobile app for scanning QR codes using the low-code tool Retool. To display content on the website, we had to generate it in the CMS and then consume it from the frontend, which required good communication with the backend team to define entity schemas and ensure consistency.",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Contentful",
+      "TailwindCSS",
+      "Retool",
+      "Vercel",
+      "Gitlab"
+    ],
+    "slug": "srf-convocation"
+  },
+  {
+    "id": "10",
+    "title": "SRF Youth Services",
+    "description": "Self-Realization Fellowship is a spiritual organization founded by Paramahansa Yogananda with the purpose of spreading the teachings of Kriya Yoga and promoting personal realization and direct communion with God.",
+    "full_description": "SRF helps and guides people on the path to a balanced, inwardly fulfilled, and spiritually aware life, integrating the principles of yoga with universal values present in major religions through its lessons, activities, books, and meditation centers around the world. Youth Services is a website developed for the organization where users of the main platform can register children and teenagers to participate in activities and programs offered by the organization. The site's content comes from a headless CMS (Contentful) and includes a complex user management system with SSO authentication, payment system, event management, and integration with a third-party service for signing consent documents.",
+    "images": [
+      {
+        "url": "/images/srf-youth-services/srf-youth-services-1.png",
+        "alt": "SRF Youth Services image 1"
+      },
+      {
+        "url": "/images/srf-youth-services/srf-youth-services-2.png",
+        "alt": "SRF Youth Services image 2"
+      }
+    ],
+    "start_date": "March 2024",
+    "end_date": "July 2024",
+    "challenges": "Creation of a multi-step registration form with validations and error handling for each step. Integration of an SSO authentication system that detects if the user is already logged in on another organization site. Integration of a proprietary payment system. Integration with a third-party service for signing consent documents. Constant communication with the backend team and a third-party team responsible for registration management via Microsoft Dynamics. Creation of content and its subsequent consumption from Contentful.",
+    "long_role_explanation": "In this project, I was the sole frontend developer, responsible for creating a registration form following best practices and recommendations from the SRF organization applied on their main website. The form is multi-step and features validations and error handling for each field at every step. Additionally, an SSO authentication system was integrated to detect if the user is already logged in on another organization site. A proprietary payment system was also implemented and integrated with a third-party service for signing consent documents. Constant communication with the backend team and a third-party team managing registrations via Microsoft Dynamics was key to the project's success. Finally, content was created in Contentful and consumed from the frontend supporting multiple languages.",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Contentful",
+      "TailwindCSS",
+      "Vercel",
+      "Gitlab",
+      "Microsoft Dynamics",
+      "PandaDoc"
+    ],
+    "slug": "srf-youth-services"
+  },
+  {
+    "id": "11",
+    "title": "Regitech POS (Point of Sale)",
+    "description": "Regitech is a retail store selling technological products and accessories, with the added benefit of offering cutting-edge repair services.",
+    "full_description": "Regitech is a personal venture that combines the sale of technological products and accessories with repair services for various devices. The store stands out for its focus on quality when offering services to customers and for its personalized attention. Regitech POS arose from the need to efficiently manage sales, customers, inventory, and repair services after the sustained growth of the business over time. The platform allows managing product inventory, customers, suppliers, organizing repair orders and sales, as well as generating reports and statistics about the business performance, all online and in real time.",
+    "images": [
+      {
+        "url": "/images/regitech/regitech-1.png",
+        "alt": "Regitech image 1"
+      },
+      {
+        "url": "/images/regitech/regitech-2.png",
+        "alt": "Regitech image 2"
+      },
+      {
+        "url": "/images/regitech/regitech-3.png",
+        "alt": "Regitech image 3"
+      }
+    ],
+    "start_date": "April 2025",
+    "end_date": "In progress",
+    "challenges": "Development of a user management and role-based authentication system. Development of an inventory, sales, suppliers, and repair orders management system. Generation of reports and statistics about business performance. Development of a solid and scalable database to support the business growth over time.",
+    "long_role_explanation": "Being a personal project, I am responsible for the development of the entire platform. From creating the database with its entity schemas, backend, frontend, layout, and integration of different components, hosting, and deployments. I work alongside a graphic designer who handles the site design based on the business's visual identity, as well as consulting with the sales team to understand their needs and adjust the product as development progresses.",
+    "technologies": [
+      "React",
+      "ShadCn",
+      "Typescript",
+      "Next.js",
+      "Supabase",
+      "TailwindCSS",
+      "Vercel"
+    ],
+    "slug": "regitech"
+  },
+  {
+    "id": "12",
+    "title": "Other Tasks",
+    "description": "Besides the mentioned projects, throughout my career I have worked on other aspects as my knowledge, experience, and skills have grown.",
+    "full_description": "Throughout my career as a frontend developer, I have had the opportunity to work on a variety of projects and tasks that have contributed to my professional growth. From the beginning, I have always sought to learn, understand how things work, and improve processes to optimize time, resources, and performance. I have worked on creating internal tools to improve team efficiency, implementing best development practices, creating technical documentation, and providing support on external projects facing technical difficulties. I have also participated in creating reusable component libraries and templates for launching new projects. As part of my professional development, I have often conducted field research on potential improvements in workflow and modernization of the technology stack used by the team, as well as subsequently teaching and training part of the team. In some cases, I have worked on projects with established development teams, where I had to adapt to their workflows and technology stacks. In those situations, I learned to adapt but also to propose improvements by bringing my previous experiences to the table.",
+    "images": [
+      {
+        "url": "/images/other/other-1.jpg",
+        "alt": "Other image 1"
+      },
+      {
+        "url": "/images/other/other-2.webp",
+        "alt": "Other image 2"
+      },
+      {
+        "url": "/images/other/other-3.png",
+        "alt": "Other image 3"
+      }
+    ],
+    "start_date": "",
+    "end_date": "",
+    "challenges": "",
+    "long_role_explanation": "",
+    "technologies": [
+      "Soft skills",
+      "Teamwork",
+      "Problem solving",
+      "Research",
+      "Teaching",
+      "Learning"
+    ],
+    "slug": "other"
+  }
+]

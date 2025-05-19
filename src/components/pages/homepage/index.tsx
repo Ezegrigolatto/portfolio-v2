@@ -7,16 +7,20 @@ import KpisSection from '@/components/layout/kpis-section';
 import ScrollHint from '@/components/layout/scroll-hint';
 import StacksCarouselSection from '@/components/layout/stacks-carousel-section';
 import { Project } from '@/types';
+import { useParams } from 'next/navigation';
 import React from 'react';
 
 export default function HomePageComponent() {
+  const params = useParams();
   const [projects, setProjects] = React.useState<Project[]>([]);
   const [showScrollHint, setShowScrollHint] = React.useState(true);
+
+  const { locale: language } = params as { locale: string };
 
   React.useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('/data.json');
+        const response = await fetch(`/data_${language || "en"}.json`);
 
         setProjects(await response.json());
       } catch (error) {
@@ -24,7 +28,7 @@ export default function HomePageComponent() {
       }
     };
     fetchProjects();
-  }, []);
+  }, [language]);
 
   return (
     <div className="flex flex-col min-h-screen w-full justify-center">

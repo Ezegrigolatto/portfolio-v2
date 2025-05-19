@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { cn } from '@/utils/twMerge';
 import { buttonVariants } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
-import { notFound } from 'next/navigation';
+import { notFound, useParams } from 'next/navigation';
 import Image from 'next/image';
 
 interface ProjectDetailsProps {
@@ -16,13 +16,15 @@ interface ProjectDetailsProps {
 }
 
 const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
+  const params = useParams();
   const [projects, setProjects] = React.useState<Project[]>();
   const t = useTranslations();
+  const { locale: language } = params as { locale: string };
 
   React.useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await (await fetch('/data.json')).json();
+        const response = await (await fetch(`/data_${language || 'en'}.json`)).json();
 
         setProjects(response);
       } catch (error) {
@@ -31,7 +33,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
       }
     };
     fetchProjects();
-  }, [slug]);
+  }, [slug, language]);
 
   const project = useMemo(() => {
     return projects?.find((project) => project.slug === slug);
