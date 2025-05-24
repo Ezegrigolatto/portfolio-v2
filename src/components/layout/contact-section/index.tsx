@@ -28,7 +28,7 @@ const ContactMeSection: React.FC = () => {
       transition={{
         duration: 0.5,
       }}
-      className="my-12 max-w-[70vw]"
+      className="my-12 max-w-[90vw] md:max-w-[70vw]"
     >
       <motion.div
         className="mt-12 flex"

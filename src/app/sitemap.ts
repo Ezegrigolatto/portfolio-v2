@@ -1,8 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  //TODO change url
-  const baseUrl = 'https://next-app-i18n-starter.vercel.app';
+  const baseUrl = 'https://jeg-dev.com';
   const locales = ['en', 'es'] as const;
 
   return [

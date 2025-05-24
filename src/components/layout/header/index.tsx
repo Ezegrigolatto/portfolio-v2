@@ -54,7 +54,7 @@ const Header = () => {
         aria-label={t('Header.home')}
       >
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarImage src="./images/avatar/avatar.png" />
           <AvatarFallback>Zeki</AvatarFallback>
         </Avatar>
       </Link>

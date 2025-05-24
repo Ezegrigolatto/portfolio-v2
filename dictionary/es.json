@@ -14,7 +14,7 @@
       "content-p1": "Soy un",
       "content-p2": "Frontend",
       "content-p3": "Software Engineer apasionado por crear",
-      "content-p4": "interfaces bonitas",
+      "content-p4": "interfaces elegantes",
       "content-p5": "y",
       "content-p6": "funcionales",
       "content-p7": "centradas en la experiencia del usuario.",
@@ -80,8 +80,8 @@
     "cta-button": "Volver al inicio"
   },
   "Metadata": {
-    "title": "",
-    "description": "",
-    "keywords": ""
+    "title": "Ezequiel Grigolatto - Software Engineer",
+    "description": "Portfolio web de Ezequiel Grigolatto, un Software Engineer especializado en desarrollo frontend.",
+    "keywords": "Ezequiel, Grigolatto, Software, Engineer, Desarrollo, Frontend, Front, Front-end, React, Next.js, JavaScript, TypeScript, Portfolio, Proyectos, Web developer, Development, Developer, Web, Website, Programación, Coding, Desarrollo web"
   }
 }

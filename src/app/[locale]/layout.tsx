@@ -37,29 +37,48 @@ export default async function Layout({
   // Enable static rendering
   setRequestLocale(locale);
 
+  const JSON_LD_SCHEMA = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Ezequiel Grigolatto',
+    url: 'https://jeg-dev.com',
+    image: 'https://jeg-dev.com/images/avatar/avatar.png',
+    sameAs: [
+      'https://www.linkedin.com/in/ezequiel-grigolatto/',
+      'https://github.com/Ezegrigolatto',
+    ],
+    jobTitle: 'Software Engineer',
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Freelance / Employed / Remote Work / Full-time',
+    },
+    description:
+      'Ezequiel Grigolatto is a software engineer with a passion for building modern web applications and creating engaging digital experiences.',
+    knowsAbout: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Frontend Development'],
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://jeg-dev.com',
+    },
+  };
+
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        {/* TODO: change meta tags */}
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#000000" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href={`https://next-app-i18n-starter.vercel.app`} />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href="https://next-app-i18n-starter.vercel.app"
-        />
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href="https://next-app-i18n-starter.vercel.app/en"
-        />
+        <link rel="canonical" href={`https://jeg-dev.com`} />
+        <link rel="alternate" hrefLang="x-default" href="https://jeg-dev.com" />
+        <link rel="alternate" hrefLang="en" href="https://jeg-dev.com/en" />
         <meta name="keywords" content={t('keywords')} />
-        <meta name="author" content="Sovers Tonmoy Pandey" />
+        <meta name="author" content="Ezequiel Grigolatto" />
         <meta name="robots" content="index, follow" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD_SCHEMA) }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -102,17 +121,14 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
-    other: {
-      'google-site-verification': 'sVYBYfSJfXdBca3QoqsZtD6lsWVH6sk02RCH4YAbcm8',
-    },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://next-app-i18n-starter.vercel.app`,
+      url: `https://jeg-dev.com`,
       siteName: 'Next.js i18n Template',
       images: [
         {
-          url: 'https://next-app-i18n-starter.vercel.app/og-image.png',
+          url: 'https://jeg-dev.com/images/avatar/avatar.png',
           width: 1200,
           height: 630,
           alt: t('title'),
@@ -125,14 +141,13 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['https://next-app-i18n-starter.vercel.app/og-image.png'],
-      creator: '@s0ver5',
+      images: ['https://jeg-dev.com/images/avatar/avatar.png'],
     },
     alternates: {
-      canonical: `https://next-app-i18n-starter.vercel.app`,
+      canonical: `https://jeg-dev.com`,
       languages: {
-        en: 'https://next-app-i18n-starter.vercel.app/en',
-        es: 'https://next-app-i18n-starter.vercel.app/es',
+        en: 'https://jeg-dev.com/en',
+        es: 'https://jeg-dev.com/es',
       },
     },
     robots: {
@@ -141,7 +156,6 @@ export async function generateMetadata({
       googleBot: {
         index: true,
         follow: true,
-        'max-video-preview': -1,
         'max-image-preview': 'large',
         'max-snippet': -1,
       },

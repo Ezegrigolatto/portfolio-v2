@@ -7,7 +7,7 @@ export default function AboutMePage({ params }: { params: Promise<{ locale: stri
   setRequestLocale(locale);
 
   return (
-    <main className="max-w-[70vw] mx-auto flex flex-col items-center justify-center py-40">
+    <main className="max-w-[90vw] md:max-w-[70vw] mx-auto flex flex-col items-center justify-center py-40">
       <AboutMePageComponent />
     </main>
   );
