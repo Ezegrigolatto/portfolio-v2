@@ -30,7 +30,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
         style={{ y: backgroundY, scale: backgroundZ }}
       >
         <motion.img
-          src="https://d1ub0o53i85pdh.cloudfront.net/uploads/2021/09/Facebook-Linkedin-image-template-10.jpg"
+          src="/images/hero/hero-banner.jpg"
           alt="hero"
           className="w-full h-full object-cover"
           initial={{ opacity: 0, y: -40 }}
@@ -80,7 +80,10 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          <Button className="z-10 text-white font-bold cursor-pointer mt-4 bg-black/30 hover:bg-black/40" size="lg">
+          <Button
+            className="z-10 text-white font-bold cursor-pointer mt-4 bg-black/30 hover:bg-black/40"
+            size="lg"
+          >
             <Link href="/about-me">{t('HomePage.hero.cta-button')}</Link>
             <motion.div
               className="flex items-center justify-center"
