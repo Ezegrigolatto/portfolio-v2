@@ -48,13 +48,13 @@
   },
   "Footer": {
     "text1": "Hecho con ",
-    "text2": "Seguime en",
+    "text2": "Sígueme en",
     "copyright": "Copyright ©",
     "rights": "Todos los derechos reservados."
   },
   "ProjectsPage": {
     "title": "Proyectos",
-    "cta-button": "Ver mas"
+    "cta-button": "Ver más"
   },
   "ProjectDetailPage": {
     "cta-button": "Ver todos los proyectos"
