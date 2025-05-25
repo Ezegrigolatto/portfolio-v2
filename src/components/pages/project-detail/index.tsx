@@ -2,7 +2,7 @@
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import { Project } from '@/types';
 import { AnimatePresence, motion } from 'motion/react';
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import Link from 'next/link';
 import { cn } from '@/utils/twMerge';
@@ -10,25 +10,45 @@ import { buttonVariants } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import { notFound, useParams } from 'next/navigation';
 import Image from 'next/image';
-
+import MainLoader from '@/components/mainloader';
 interface ProjectDetailsProps {
   slug: string;
 }
 
 const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
   const params = useParams();
-  const [projects, setProjects] = React.useState<Project[]>();
+  const [projects, setProjects] = useState<Project[]>();
+  const [isLoading, setIsLoading] = useState(true);
+  const [isMobile, setIsMobile] = useState<boolean | null>(null);
+
   const t = useTranslations();
   const { locale: language } = params as { locale: string };
 
-  React.useEffect(() => {
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize); // Check on resize
+
+    handleResize(); // Initial check
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    }; // Cleanup
+  }, []);
+
+  useEffect(() => {
     const fetchProjects = async () => {
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       try {
         const response = await (await fetch(`/data_${language || 'en'}.json`)).json();
 
         setProjects(response);
+        setIsLoading(false);
       } catch (error) {
         console.error('Error fetching projects:', error);
+        setIsLoading(false);
         return notFound();
       }
     };
@@ -38,6 +58,10 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
   const project = useMemo(() => {
     return projects?.find((project) => project.slug === slug);
   }, [projects, slug]);
+
+  if (isLoading || isMobile === null) {
+    return <MainLoader />;
+  }
 
   return (
     <AnimatePresence key={slug}>
@@ -61,6 +85,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
               delay: 3500,
             }),
           ]}
+          className="md:min-h-[450px]"
         >
           <CarouselContent>
             {project?.images.map((image, index) => (
@@ -68,7 +93,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
                 <Image
                   src={image.url || ''}
                   width="1000"
-                  height="1000"
+                  height={isMobile ? "300" : "450"}
                   alt={project?.title || ''}
                   className="w-full rounded-xl"
                 />

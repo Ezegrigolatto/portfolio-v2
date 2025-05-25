@@ -5,12 +5,12 @@ import { motion } from 'motion/react';
 import LanguageSwitcher from '../language-switcher';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { cn } from '@/utils/twMerge';
 import MobileNav from '../mobile-nav';
 import { FolderKanban, Home, UserRound } from 'lucide-react';
 import Navbar from '../navbar';
 import { ThemeToggle } from '../theme-toggle';
+import Image from 'next/image';
 
 export const HEADER_LINKS = [
   {
@@ -53,10 +53,13 @@ const Header = () => {
         className="flex items-center justify-center gap-1"
         aria-label={t('Header.home')}
       >
-        <Avatar>
-          <AvatarImage src="./images/avatar/avatar.png" />
-          <AvatarFallback>Zeki</AvatarFallback>
-        </Avatar>
+        <Image
+          src={"/images/avatar/my-avatar.png"}
+          alt="avatar"
+          width={32}
+          height={32}
+          className="rounded-full"
+        />
       </Link>
       <div className="flex items-center gap-2">
         <Navbar />

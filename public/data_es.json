@@ -83,7 +83,7 @@
       { "url": "/images/trac/trac-5.png", "alt": "Trac image 5" }
     ],
     "start_date": "Abril de 2022",
-    "end_date": "Diciembre de 2022",
+    "end_date": "Abril de 2023",
     "challenges": "Trabajar con un equipo de desarrollo numeroso, con diferentes husos horarios y con un producto en constante evolución. Cuando me uní al equipo, la plataforma ya estaba en desarrollo, por lo que tuve que adaptarme rápidamente a la lógica de negocio y a la forma de trabajo del equipo. Además, el producto estaba en constante evolución, lo que requería una rápida adaptación a los cambios y una buena comunicación con el equipo. Tecnicamente, el desafío fue trabajar con un stack de tecnologías que no conocía, lo que me obligó a aprender y aplicarlo rápidamente.",
     "long_role_explanation": "Me uní al equipo de TRAC como desarrollador frontend, donde trabajé a la par de otras personas en la creación de una plataforma web para artistas. Dentro de las tareas que realicé, se encuentran la integración de dos sitios webs a un backend compartido, ademas de crear una tercera pagina web en formato blog con Sanity (Un CMS Headless).",
     "technologies": [
