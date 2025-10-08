@@ -34,9 +34,9 @@
       { "url": "/images/nicer/nicer-3.png", "alt": "Nicer image 3" }
     ],
     "start_date": "Abril de 2024",
-    "end_date": "En desarrollo",
+    "end_date": "Agosto de 2025",
     "challenges": "Integración de múltiples APIs de terceros, integracion de un CMS, integración de pagos, gestion de itinerarios complejos y multiples reglas de negocio. Tambien construimos nuestra propia libreria de componentes para el desarrollo frontend.",
-    "long_role_explanation": "Estoy a cargo del desarrollo y mantenimiento del frontend de los multiples sitios web y la aplicación nativa, así como de la integración con las APIs de terceros. Actualmente coexisten 5 sitios webs diferentes y una aplicacion mobile en las cuales trabajo junto a un desarrollador frontend / diseñador y un backend developer. </br> </br> Los diferentes sitios web son: </br> </br> - Landing page y pagina de campañas de marketing. </br> - Portal de advisors donde los travel advisors pueden gestionar viajes, itinerarios, pagos, reservaciones y comunicarse con los viajeros a través de un chat propio. </br> - Itinerario público donde los viajeros pueden ver su itinerario rapidamente sin necesidad de loguearse a su cuenta. </br> - Blog de learning, desarrollado con un CMS Headless, este sitio permite hacer training a los travel advisors que se sumen a la plataforma. </br> - Plataforma de booking, donde los viajeros pueden hacer reservas por si mismos sin necesidad de un travel advisor. </br> - Aplicación nativa para los viajeros, donde pueden ver su itinerario, comunicarse con su travel advisor y gestionar su perfil, su información relevante y realizar los pagos correspondientes. </br> </br>",
+    "long_role_explanation": "Estuve a cargo del desarrollo y mantenimiento del frontend de los multiples sitios web y la aplicación nativa, así como de la integración con las APIs de terceros. Actualmente coexisten 5 sitios webs diferentes y una aplicacion mobile en las cuales trabajé junto a un desarrollador frontend / diseñador y un backend developer. </br> </br> Los diferentes sitios web son: </br> </br> - Landing page y pagina de campañas de marketing. </br> - Portal de advisors donde los travel advisors pueden gestionar viajes, itinerarios, pagos, reservaciones y comunicarse con los viajeros a través de un chat propio. </br> - Itinerario público donde los viajeros pueden ver su itinerario rapidamente sin necesidad de loguearse a su cuenta. </br> - Blog de learning, desarrollado con un CMS Headless, este sitio permite hacer training a los travel advisors que se sumen a la plataforma. </br> - Plataforma de booking, donde los viajeros pueden hacer reservas por si mismos sin necesidad de un travel advisor. </br> - Aplicación nativa para los viajeros, donde pueden ver su itinerario, comunicarse con su travel advisor y gestionar su perfil, su información relevante y realizar los pagos correspondientes. </br> </br>",
     "technologies": [
       "React",
       "React Native",
@@ -149,9 +149,9 @@
       }
     ],
     "start_date": "Febrero de 2025",
-    "end_date": "En desarrollo",
+    "end_date": "Julio de 2025",
     "challenges": "Creación de un template web integrado con un CMS Headless, manteniento tipados lo mas genérico posible para que el cliente pueda cargar su contenido sin problemas. Integración de publicidad a través de Google Ad Manager y configuración de SEO muy detallada para cada página, dado que en este rubro el SEO es fundamental.",
-    "long_role_explanation": "Me encargo del desarrollo y mantenimiento del frontend de la plataforma, así como de la integración con el CMS Headless. Por otro lado también me encargo del desarrollo y mantenimiento de los esquemas, tipados y publicación del sitio utilizado como interfaz de carga del contenido.",
+    "long_role_explanation": "Me encargué del desarrollo y mantenimiento del frontend de la plataforma, así como de la integración con el CMS Headless. Por otro lado también me encargué del desarrollo y mantenimiento de los esquemas, tipados y publicación del sitio utilizado como interfaz de carga del contenido.",
     "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
     "slug": "sinapsis-news"
   },
@@ -281,6 +281,46 @@
   },
   {
     "id": "12",
+    "title": "Take a Leap",
+    "description": "Take a Leap es un programa diseñado para ayudar a startups a lanzar y hacer crecer sus negocios a través de mentorías, recursos y oportunidades de networking.",
+    "full_description": "Con la experiencia de Luciano, este programa busca brindar a las startups las herramientas y conocimientos necesarios para tener éxito en un mercado competitivo. El programa incluye mentorías de emprendedores experimentados, acceso a recursos como soporte técnico, estrategias comprobadas y oportunidades para conectarse con otras startups y expertos de la industria. El objetivo es ayudar a las startups a dar el salto desde una idea hasta un negocio exitoso.",
+    "images": [
+      {
+        "url": "/images/take-a-leap/take-a-leap-1.png",
+        "alt": "Take a Leap image 1"
+      },
+      {
+        "url": "/images/take-a-leap/take-a-leap-2.png",
+        "alt": "Take a Leap image 2"
+      },
+      { "url": "/images/take-a-leap/take-a-leap-3.png", "alt": "Take a Leap image 3" }
+    ],
+    "start_date": "Julio 2025",
+    "end_date": "En progreso",
+    "challenges": "Construcción de un sitio web con Next.js que consume datos desde un Headless CMS. Diseño de esquemas y entidades de contenido para el CMS e integración con el frontend. Implementación de optimizaciones SEO ya que se trata de un sitio web de marketing.",
+    "long_role_explanation": "Soy responsable de desarrollar la estructura del sitio, organizar las páginas y componentes, e integrar el frontend con el Headless CMS. También creé y mantengo los esquemas de contenido y las definiciones de tipos en el CMS, además de la interfaz de usuario utilizada para publicar contenido.",
+    "technologies": ["React", "Next.js", "TailwindCss", "Typescript", "ShadCn", "Sanity"],
+    "slug": "take-a-leap"
+  },
+  {
+    "id": "13",
+    "title": "SISMO",
+    "description": "Portal de noticias relacionadas al mundo de la música electrónica underground.",
+    "full_description": "SISMO es un portal de noticias y eventos relacionados al mundo de la música electrónica underground. El sitio web fue desarrollado a partir de un template preexistente, mostrando asi la viabilidad de crear un sitio web funcional y atractivo en poco tiempo donde el cliente final solamente debe encargarse de cargar su contenido a través de un CMS Headless.",
+    "images": [
+      { "url": "/images/sismo/sismo-1.png", "alt": "SISMO image 1" },
+      { "url": "/images/sismo/sismo-2.png", "alt": "SISMO image 2" },
+      { "url": "/images/sismo/sismo-3.png", "alt": "SISMO image 3" }
+    ],
+    "start_date": "Agosto de 2025",
+    "end_date": "En desarrollo",
+    "challenges": "Adaptación de un template web preexistente a las necesidades del cliente. Integración con un CMS Headless para la gestión del contenido. Configuración de SEO, theme y analíticas.",
+    "long_role_explanation": "Me encargué de adaptar un template web preexistente a las necesidades del cliente, integrando el mismo con un CMS Headless para la gestión del contenido. También configuré aspectos importantes como el SEO, el tema visual y las analíticas del sitio.",
+    "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
+    "slug": "sismo"
+  },
+  {
+    "id": "14",
     "title": "Otras tareas",
     "description": "Ademas de los proyectos mencionados, a lo largo de mi carrera he trabajado en otros aspectos a medida que mi conocimiento, experiencia y habilidades fueron creciendo.",
     "full_description": "A lo largo de mi carrera como desarrollador frontend, he tenido la oportunidad de trabajar en una variedad de proyectos y tareas que han contribuido a mi crecimiento profesional. Desde mis inicios, siempre he buscado aprender, entender el funcionamiento de las cosas y mejorar sus procesos para optimizar el tiempo, los recursos y el rendimiento. He trabajado en la creación de herramientas internas para mejorar la eficiencia del equipo, así como en la implementación de buenas prácticas de desarrollo, en la creación de documentación técnica y en brindar apoyo en proyectos externos ante dificultades tecnicas. También he participado en la creación de librerías de componentes reutilizables y en la creación de templates sobre los que montar nuevos proyectos. Como parte de mi desarrollo profesional, me ha tocado en multiples ocasiones hacer investigaciones de campo sobre posibles mejoras en el flujo de trabajo y sobre la modernización del stack de tecnologías utilizado por el equipo, así como la posterior enseñanza y capacitación a parte del equipo. En algunas situaciones me ha tocado trabajar en proyectos que ya contaban con un equipo de desarrollo, en esos escenarios tuve que adaptarme a equipos ya consolidados, a su forma de trabajo y a su stack de tecnologías, en esos casos he aprendido a adaptarme pero tambien a proponer puntos de mejora llevando mis experiencias previas a la mesa.",

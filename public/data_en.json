@@ -34,9 +34,9 @@
       { "url": "/images/nicer/nicer-3.png", "alt": "Nicer image 3" }
     ],
     "start_date": "April 2024",
-    "end_date": "In progress",
+    "end_date": "August 2025",
     "challenges": "Integration of multiple third-party APIs, CMS integration, payment processing, management of complex itineraries, and multiple business rules. We also built our own component library for frontend development.",
-    "long_role_explanation": "I am responsible for the development and maintenance of the frontend for multiple websites and the native application, as well as the integration with third-party APIs. Currently, there are five different websites and one mobile app on which I work alongside a frontend developer/designer and a backend developer. </br> </br> The different websites are: </br> </br> - Landing page and marketing campaign pages. </br> - Advisor portal where travel advisors can manage trips, itineraries, payments, bookings, and communicate with travelers through a built-in chat. </br> - Public itinerary where travelers can quickly view their itinerary without needing to log in. </br> - Learning blog, developed with a Headless CMS, which provides training to travel advisors joining the platform. </br> - Booking platform where travelers can make reservations on their own without needing a travel advisor. </br> - Native mobile app for travelers, where they can view their itinerary, communicate with their travel advisor, manage their profile and relevant information, and make necessary payments. </br> </br>",
+    "long_role_explanation": "I was responsible for the development and maintenance of the frontend for multiple websites and the native application, as well as the integration with third-party APIs. Currently, there are five different websites and one mobile app on which I worked alongside a frontend developer/designer and a backend developer. </br> </br> The different websites are: </br> </br> - Landing page and marketing campaign pages. </br> - Advisor portal where travel advisors can manage trips, itineraries, payments, bookings, and communicate with travelers through a built-in chat. </br> - Public itinerary where travelers can quickly view their itinerary without needing to log in. </br> - Learning blog, developed with a Headless CMS, which provides training to travel advisors joining the platform. </br> - Booking platform where travelers can make reservations on their own without needing a travel advisor. </br> - Native mobile app for travelers, where they can view their itinerary, communicate with their travel advisor, manage their profile and relevant information, and make necessary payments. </br> </br>",
     "technologies": [
       "React",
       "React Native",
@@ -149,9 +149,9 @@
       }
     ],
     "start_date": "February 2025",
-    "end_date": "Ongoing",
+    "end_date": "July 2025",
     "challenges": "Creating a web template integrated with a Headless CMS, ensuring type definitions were as generic as possible so clients could manage their content easily. Integration with Google Ad Manager for ads, and meticulous SEO configuration for every page since SEO is critical in this field.",
-    "long_role_explanation": "I'm responsible for developing and maintaining the frontend of the platform, as well as integrating it with the Headless CMS. I also handle the creation and maintenance of content schemas, types, and the deployment of the admin interface used to manage and publish content.",
+    "long_role_explanation": "I was responsible for developing and maintaining the frontend of the platform, as well as integrating it with the Headless CMS. I was also handling the creation and maintenance of content schemas, types, and the deployment of the admin interface used to manage and publish content.",
     "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
     "slug": "sinapsis-news"
   },
@@ -175,7 +175,7 @@
       }
     ],
     "start_date": "January 2025",
-    "end_date": "Ongoing",
+    "end_date": "In progress",
     "challenges": "Building a website with Next.js that consumes data from a Headless CMS. Designing content schemas and entities for the CMS and integrating them with the frontend.",
     "long_role_explanation": "I'm responsible for developing the site structure, organizing pages and components, and integrating the frontend with the Headless CMS and third-party services like Google Analytics and Google Tag Manager. I also created and maintain the content schemas and type definitions in the CMS, as well as the admin interface used for publishing content.",
     "technologies": ["React", "Next.js", "Typescript", "Sanity", "MaterialUI"],
@@ -280,6 +280,40 @@
   },
   {
     "id": "12",
+    "title": "Take a Leap",
+    "description": "Take a leap is a program designed to help startups to launch and grow their businesses through mentorship, resources, and networking opportunities.",
+    "full_description": "With the experience of Luciano, this program aims to provide startups with the necessary tools and knowledge to succeed in a competitive market. The program includes mentorship from experienced entrepreneurs, access to resources such as technical support, proven strategies, and opportunities to connect with other startups and industry experts. The goal is to help startups take the leap from idea to successful business.",
+    "images": [
+      { "url": "/images/take-a-leap/take-a-leap-1.png", "alt": "Take a Leap image 1" },
+      { "url": "/images/take-a-leap/take-a-leap-2.png", "alt": "Take a Leap image 2" },
+      { "url": "/images/take-a-leap/take-a-leap-3.png", "alt": "Take a Leap image 3" }
+    ],
+    "start_date": "July 2025",
+    "end_date": "In progress",
+    "challenges": "Building a website with Next.js that consumes data from a Headless CMS. Designing content schemas and entities for the CMS and integrating them with the frontend. Adding SEO optimizations to the site since it is a marketing website.",
+    "long_role_explanation": "I'm responsible for developing the site structure, organizing pages and components, and integrating the frontend with the Headless CMS. I also created and maintain the content schemas and type definitions in the CMS, as well as the user interface used for publishing content.",
+    "technologies": ["React", "Next.js", "TailwindCss", "Typescript", "ShadCn", "Sanity"],
+    "slug": "take-a-leap"
+  },
+  {
+    "id": "13",
+    "title": "SISMO",
+    "description": "News portal focused on the underground electronic music scene.",
+    "full_description": "SISMO is a news and events portal dedicated to the underground electronic music scene. The website was developed from a pre-existing template, demonstrating the feasibility of creating a functional and visually appealing site in a short time, where the client only needs to manage the content through a Headless CMS.",
+    "images": [
+      { "url": "/images/sismo/sismo-1.png", "alt": "SISMO image 1" },
+      { "url": "/images/sismo/sismo-2.png", "alt": "SISMO image 2" },
+      { "url": "/images/sismo/sismo-3.png", "alt": "SISMO image 3" }
+    ],
+    "start_date": "August 2025",
+    "end_date": "In progress",
+    "challenges": "Adapting a pre-existing web template to meet the client's needs. Integration with a Headless CMS for content management. Configuration of SEO, theme, and analytics.",
+    "long_role_explanation": "I was responsible for adapting a pre-existing web template to meet the client's requirements, integrating it with a Headless CMS for content management. I also configured key aspects such as SEO, visual theme, and site analytics.",
+    "technologies": ["React", "Next.js", "TypeScript", "Sanity", "MaterialUI"],
+    "slug": "sismo"
+  },
+  {
+    "id": "14",
     "title": "Other Tasks",
     "description": "Besides the mentioned projects, throughout my career I have worked on other aspects as my knowledge, experience, and skills have grown.",
     "full_description": "Throughout my career as a frontend developer, I have had the opportunity to work on a variety of projects and tasks that have contributed to my professional growth. From the beginning, I have always sought to learn, understand how things work, and improve processes to optimize time, resources, and performance. I have worked on creating internal tools to improve team efficiency, implementing best development practices, creating technical documentation, and providing support on external projects facing technical difficulties. I have also participated in creating reusable component libraries and templates for launching new projects. As part of my professional development, I have often conducted field research on potential improvements in workflow and modernization of the technology stack used by the team, as well as subsequently teaching and training part of the team. In some cases, I have worked on projects with established development teams, where I had to adapt to their workflows and technology stacks. In those situations, I learned to adapt but also to propose improvements by bringing my previous experiences to the table.",
