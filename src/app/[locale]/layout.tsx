@@ -35,7 +35,6 @@ export default async function Layout({
     notFound();
   }
 
-  // Enable static rendering
   setRequestLocale(locale);
 
   const JSON_LD_SCHEMA = {
@@ -95,7 +94,7 @@ export default async function Layout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
-        {/* Google Tag Manager - noscript (inmediatamente después de <body>) */}
+        {/* Google Tag Manager */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5MW538FK"
