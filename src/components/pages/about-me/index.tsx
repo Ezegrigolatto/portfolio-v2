@@ -40,6 +40,7 @@ const AboutMePageComponent = () => {
           <div className="flex flex-col items-start justify-center">
             <p className="mt-4 text-lg">{t('AboutMePage.paragraph2')}</p>
             <p className="mt-4 text-lg">{t('AboutMePage.paragraph3')}</p>
+            <p className="mt-4 text-lg">{t('AboutMePage.paragraph4')}</p>
           </div>
           <DotLottieReact
             loop
@@ -57,7 +58,7 @@ const AboutMePageComponent = () => {
             autoplay
             speed={1.1}
           />
-          <p className="mt-4 text-lg">{t('AboutMePage.paragraph4')}</p>
+          <p className="mt-4 text-lg">{t('AboutMePage.paragraph5')}</p>
         </motion.div>
       </motion.section>
       <motion.section
@@ -76,10 +77,10 @@ const AboutMePageComponent = () => {
         <motion.div className="flex items-center justify-between w-full my-4">
           <div className="flex flex-col items-start justify-center">
             <p className="mt-4 text-lg ">
-              {t('AboutMePage.paragraph5')}
+              {t('AboutMePage.paragraph6')}
             </p>
             <p className="mt-4 text-lg">
-              {t('AboutMePage.paragraph6')}
+              {t('AboutMePage.paragraph7')}
             </p>
           </div>
           <DotLottieReact
@@ -100,7 +101,7 @@ const AboutMePageComponent = () => {
             speed={1.1}
           />
           <p className="mt-4 text-lg">
-            {t('AboutMePage.paragraph7')}
+            {t('AboutMePage.paragraph8')}
           </p>
         </motion.div>
       </motion.section>

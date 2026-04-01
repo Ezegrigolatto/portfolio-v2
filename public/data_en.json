@@ -1,6 +1,97 @@
 [
   {
     "id": 1,
+    "title": "Innova FAM",
+    "description": "Personnel and project management platform for mining companies",
+    "full_description": "Innova FAM is a web platform designed to optimize personnel and project management in the mining sector. The platform centralizes employee information, their skills, availability, and assignments to specific projects. Additionally, it allows managers to plan and coordinate team activities efficiently, facilitating the management of certifications and training, as well as tracking project progress. With Innova FAM, mining companies can improve productivity, reduce costs, and ensure compliance with safety and quality standards in their operations.",
+    "images": [
+      { "url": "/images/fam/fam-1.png", "alt": "Innova FAM image 1" },
+      { "url": "/images/fam/fam-2.png", "alt": "Innova FAM image 2" },
+      { "url": "/images/fam/fam-3.png", "alt": "Innova FAM image 3" },
+      { "url": "/images/fam/fam-4.png", "alt": "Innova FAM image 4" },
+      { "url": "/images/fam/fam-5.png", "alt": "Innova FAM image 5" },
+      { "url": "/images/fam/fam-6.png", "alt": "Innova FAM image 6" },
+      { "url": "/images/fam/fam-7.png", "alt": "Innova FAM image 7" }
+    ],
+    "start_date": "February 2026",
+    "end_date": "March 2026",
+    "challenges": "Adapting a pre-existing web template to the client's needs. Integration with a backend developed in Python for managing users, projects, certifications, roles, backOffice, etc.",
+    "long_role_explanation": "I was in charge of developing the frontend of the platform, adapting a pre-existing web template, managing the integration with the backend, global states, multiple CRUDs, paginated tables, charts, etc. I worked by inferring types from lambdas and models developed in Python.",
+    "technologies": [
+      "Next.js",
+      "Typescript",
+      "TailwindCSS",
+      "AWS",
+      "React-table",
+      "React-hook-forms",
+      "Zustand"
+    ],
+    "slug": "innova-fam"
+  },
+  {
+    "id": 2,
+    "title": "RRHH-Compliance",
+    "description": "Human Resources and Compliance consulting platform assisted by artificial intelligence",
+    "full_description": "RRHH-Compliance is a Human Resources and Compliance consulting platform that uses artificial intelligence to analyze labor situations and provide advice based on legal documents and regulations, which can range from local laws, collective agreements, and/or internal regulations. The platform also allows for the tracking and management of cases, documents, and compliance to facilitate their management and informed decision-making by users.",
+    "images": [
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-1.png",
+        "alt": "RRHH-Compliance image 1"
+      },
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-2.png",
+        "alt": "RRHH-Compliance image 2"
+      },
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-3.png",
+        "alt": "RRHH-Compliance image 3"
+      },
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-4.png",
+        "alt": "RRHH-Compliance image 4"
+      },
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-5.png",
+        "alt": "RRHH-Compliance image 5"
+      },
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-6.png",
+        "alt": "RRHH-Compliance image 6"
+      },
+      {
+        "url": "/images/rrhh-compliance/rrhh-compliance-7.png",
+        "alt": "RRHH-Compliance image 7"
+      }
+    ],
+    "start_date": "March 2026",
+    "end_date": "March 2026",
+    "challenges": "Proposing the technology stack and architecture, component layout, developing an artificial intelligence agent capable of analyzing legal documents and providing advice based on them.",
+    "long_role_explanation": "I was responsible for proposing the technology stack and architecture of the project based on the requested requirements. I developed the frontend of the platform using ShadCn, a library of pre-built components, and TailwindCSS for customizing these components. Additionally, I developed an artificial intelligence agent using the OpenAI API, connecting it to the UI also built from scratch based on the standards suggested by Vercel for AI agents.",
+    "technologies": ["Next.js", "Typescript", "TailwindCSS", "ShadCn", "OpenAI API"],
+    "slug": "rrhh-compliance"
+  },
+  {
+    "id": 3,
+    "title": "Feelix AI",
+    "description": "Feelix AI is the assistant that works for you even when you are not available.",
+    "full_description": "Feelix AI is an assistant that allows you to be present even when you are not available. With Feelix AI, you can schedule automatic responses through artificial intelligence agents that you can activate when needed. Feelix AI combines the power of artificial intelligence with the robustness of the META API for WhatsApp, allowing you to create custom templates and assign them to specific triggers. Someone asks about clothing offers? The agent responds with a carousel of images and links to the products. Someone asks about your business hours? The agent responds with a personalized message. With Feelix AI, you can maintain constant and effective communication with your customers, even when you are not available.",
+    "images": [
+      { "url": "/images/feelix-ai/feelix-ai-1.png", "alt": "Feelix AI image 1" },
+      { "url": "/images/feelix-ai/feelix-ai-2.png", "alt": "Feelix AI image 2" },
+      { "url": "/images/feelix-ai/feelix-ai-3.png", "alt": "Feelix AI image 3" },
+      { "url": "/images/feelix-ai/feelix-ai-4.png", "alt": "Feelix AI image 4" },
+      { "url": "/images/feelix-ai/feelix-ai-5.png", "alt": "Feelix AI image 5" },
+      { "url": "/images/feelix-ai/feelix-ai-6.png", "alt": "Feelix AI image 6" }
+    ],
+    "start_date": "January 2026",
+    "end_date": "March 2026",
+    "challenges": "Understanding pre-existing code, proposing improvements by observing the product in action, developing new features, and fixing bugs.",
+    "long_role_explanation": "The product was already in a stage almost ready to function as an MVP. I was responsible for developing some of the pending functionalities for the launch, fixing critical bugs, and completing features that were incomplete. The most important change I made was refactoring the entire project to prepare it for scaling from a technical perspective. This included implementing a more modular architecture, introducing design patterns to improve code maintainability, refactoring styles and CSS to be consistent across the platform, modernizing the UI, making better use of space, and facilitating code readability.",
+    "technologies": ["React", "Javascript", "TailwindCSS", "CSS", "META API", "Recharts"],
+    "slug": "feelix-ai"
+  },
+  {
+    "id": 4,
     "title": "Junglytics",
     "description": "Junglytics is a data analytics platform for Amazon sellers. It allows users to visualize key metrics and optimize the profitability of FBA products.",
     "full_description": "Junglytics is a web tool aimed at Amazon sellers. The platform centralizes and visualizes key data on sales, costs, fees, inventory, and profitability, enabling decision-making based on metrics over time. Its features include financial dashboards, detailed product reports, and tools to optimize the performance of each item on the marketplace. Its goal is to facilitate the operational and strategic management of businesses within the Amazon ecosystem.",
@@ -24,7 +115,7 @@
     "slug": "junglytics"
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Nicer",
     "description": "A complete ecosystem for travel management. It handles itineraries, payments, bookings, and traveler communication all in one place.",
     "full_description": "Nicer defines itself as the future of travel — a platform that provides travel advisors with multiple tools to manage trips efficiently and personally, including an itinerary management system, payments, bookings, and communication with travelers. It’s an all-in-one ecosystem that includes multiple websites such as the advisor portal, landing page, learning blog, booking platform, public itinerary, and even its own native app for travelers.",
@@ -53,7 +144,7 @@
     "slug": "nicer"
   },
   {
-    "id": "3",
+    "id": 6,
     "title": "1816 | Economía y Estrategia",
     "description": "1816 | Economía y Estrategia is an Argentine consulting firm specialized in macroeconomic and financial analysis.",
     "full_description": "1816 stands out for its intensive use of Big Data tools to provide detailed reports and technical advice to institutional investors, companies, and entities in the financial system. Its main goal is to deliver data-driven tools to understand the Argentine and regional economic context, assess risks, and make informed decisions.",
@@ -71,7 +162,7 @@
     "slug": "1816"
   },
   {
-    "id": "4",
+    "id": 7,
     "title": "Trac",
     "description": "TRAC is an all-in-one platform for artists that combines music distribution, Web3 technology, and inventory-free merchandise sales.",
     "full_description": "TRAC is a music tech startup based in Los Angeles. Its goal is to empower independent artists through a platform that integrates music distribution, personalized merchandise sales, and Web3-based monetization tools. With TRAC, artists can release their music on over 40 streaming platforms, manage payments in USD or cryptocurrencies, and create unique tokens to incentivize fan engagement. The platform also provides customized artist pages, enabling direct connection with their audience and better personal brand management.",
@@ -98,7 +189,7 @@
     "slug": "trac"
   },
   {
-    "id": "5",
+    "id": 8,
     "title": "Reedy",
     "description": "Are you a student in need of a computer? With Reedy, you can choose the one that best suits your needs, keep it as long as you want, and return it whenever you like.",
     "full_description": "Instead of viewing hardware as something to buy, Reedy offers students an innovative rental service that provides them with a computer tailored to their performance needs, guaranteed for the entire duration of their studies. Students can choose from different “technology profiles” (computers with varying performance levels and features).",
@@ -126,7 +217,7 @@
     "slug": "reedy"
   },
   {
-    "id": "6",
+    "id": 9,
     "title": "Sinapsis News",
     "description": "Sinapsis News is the perfect starting point for building your own news portal. With a modern design and an intuitive interface, you can create an attractive and functional website without worrying about code.",
     "full_description": "Sinapsis News is a web template that allows users to quickly and easily create their own news portal without any coding. Featuring a modern design and an intuitive interface integrated with a CMS, users can publish news through Sanity or use an optional migration tool to import articles from their existing website. The platform is user-friendly and includes support for advertising via Google Ad Manager. It also comes with a native mobile app for both iOS and Android, enabling users to access content from anywhere at any time.",
@@ -156,7 +247,7 @@
     "slug": "sinapsis-news"
   },
   {
-    "id": "7",
+    "id": 10,
     "title": "Sinapsis Site",
     "description": "Sinapsis is a software development company focused on creating custom cloud-based solutions. With a strong emphasis on innovation and quality, it offers software development, consulting, and technical support services for businesses across different industries.",
     "full_description": "Sinapsis is a company with a long-standing track record in building custom software. Its approach focuses on developing innovative and high-quality tech solutions tailored to each client’s specific needs. The company offers a wide range of services including web and mobile development, technology consulting, and technical support. This website provides detailed information about the company, its services, and showcases successful case studies and projects.",
@@ -182,7 +273,7 @@
     "slug": "sinapsis-site"
   },
   {
-    "id": "9",
+    "id": 11,
     "title": "SRF Convocation",
     "description": "Self-Realization Fellowship is a spiritual organization founded by Paramahansa Yogananda with the purpose of spreading the teachings of Kriya Yoga and promoting personal realization and direct communion with God.",
     "full_description": "SRF helps and guides people on the path to a balanced, inwardly fulfilled, and spiritually aware life, integrating the principles of yoga with universal values present in major religions through its lessons, activities, books, and meditation centers around the world. The Convocation portal is a website developed for the organization where users can register to participate in the main annual event, which includes multiple organized activities for which users must manage their attendance individually as well as select add-ons, schedules, etc. The site's content comes from a headless CMS (Contentful) and includes a complex user management system with SSO authentication, payment system, event management, and calendars. In parallel, a mobile app was developed to scan QR codes and manage user attendance at events.",
@@ -213,7 +304,7 @@
     "slug": "srf-convocation"
   },
   {
-    "id": "10",
+    "id": 12,
     "title": "SRF Youth Services",
     "description": "Self-Realization Fellowship is a spiritual organization founded by Paramahansa Yogananda with the purpose of spreading the teachings of Kriya Yoga and promoting personal realization and direct communion with God.",
     "full_description": "SRF helps and guides people on the path to a balanced, inwardly fulfilled, and spiritually aware life, integrating the principles of yoga with universal values present in major religions through its lessons, activities, books, and meditation centers around the world. Youth Services is a website developed for the organization where users of the main platform can register children and teenagers to participate in activities and programs offered by the organization. The site's content comes from a headless CMS (Contentful) and includes a complex user management system with SSO authentication, payment system, event management, and integration with a third-party service for signing consent documents.",
@@ -245,7 +336,7 @@
     "slug": "srf-youth-services"
   },
   {
-    "id": "11",
+    "id": 13,
     "title": "Regitech POS (Point of Sale)",
     "description": "Regitech is a retail store selling technological products and accessories, with the added benefit of offering cutting-edge repair services.",
     "full_description": "Regitech is a personal venture that combines the sale of technological products and accessories with repair services for various devices. The store stands out for its focus on quality when offering services to customers and for its personalized attention. Regitech POS arose from the need to efficiently manage sales, customers, inventory, and repair services after the sustained growth of the business over time. The platform allows managing product inventory, customers, suppliers, organizing repair orders and sales, as well as generating reports and statistics about the business performance, all online and in real time.",
@@ -279,7 +370,7 @@
     "slug": "regitech"
   },
   {
-    "id": "12",
+    "id": 14,
     "title": "Take a Leap",
     "description": "Take a leap is a program designed to help startups to launch and grow their businesses through mentorship, resources, and networking opportunities.",
     "full_description": "With the experience of Luciano, this program aims to provide startups with the necessary tools and knowledge to succeed in a competitive market. The program includes mentorship from experienced entrepreneurs, access to resources such as technical support, proven strategies, and opportunities to connect with other startups and industry experts. The goal is to help startups take the leap from idea to successful business.",
@@ -313,7 +404,7 @@
     "slug": "sismo"
   },
   {
-    "id": "14",
+    "id": 15,
     "title": "Other Tasks",
     "description": "Besides the mentioned projects, throughout my career I have worked on other aspects as my knowledge, experience, and skills have grown.",
     "full_description": "Throughout my career as a frontend developer, I have had the opportunity to work on a variety of projects and tasks that have contributed to my professional growth. From the beginning, I have always sought to learn, understand how things work, and improve processes to optimize time, resources, and performance. I have worked on creating internal tools to improve team efficiency, implementing best development practices, creating technical documentation, and providing support on external projects facing technical difficulties. I have also participated in creating reusable component libraries and templates for launching new projects. As part of my professional development, I have often conducted field research on potential improvements in workflow and modernization of the technology stack used by the team, as well as subsequently teaching and training part of the team. In some cases, I have worked on projects with established development teams, where I had to adapt to their workflows and technology stacks. In those situations, I learned to adapt but also to propose improvements by bringing my previous experiences to the table.",
