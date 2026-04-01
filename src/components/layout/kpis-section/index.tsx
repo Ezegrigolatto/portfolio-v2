@@ -10,7 +10,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const KPIS = [
   {
     label: 'HomePage.kpis.projects',
-    value: '12+',
+    value: '15+',
     icon: <FolderKanban className="h-6 w-6" />,
     animation: (
       <DotLottieReact
@@ -23,7 +23,7 @@ const KPIS = [
   },
   {
     label: 'HomePage.kpis.happy-customers',
-    value: '8+',
+    value: '10+',
     icon: <Smile className="h-6 w-6" />,
     animation: (
       <DotLottieReact
@@ -36,7 +36,7 @@ const KPIS = [
   },
   {
     label: 'HomePage.kpis.coding-hours',
-    value: '5000+',
+    value: '5200+',
     icon: <ClockIcon className="h-6 w-6" />,
     animation: (
       <DotLottieReact
