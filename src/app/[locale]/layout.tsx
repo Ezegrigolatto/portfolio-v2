@@ -79,7 +79,7 @@ export default async function Layout({
         <meta name="theme-color" content="#000000" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href={`https://jeg-dev.com/en`} />
+        <link rel="canonical" href={`https://jeg-dev.com`} />
         <link rel="alternate" hrefLang="x-default" href="https://jeg-dev.com" />
         <link rel="alternate" hrefLang="en" href="https://jeg-dev.com/en" />
         <meta name="keywords" content={t('keywords')} />
