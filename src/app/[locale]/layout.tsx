@@ -22,6 +22,8 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+const BASE_URL = 'https://jeg-dev.com';
+
 export default async function Layout({
   children,
   params,
@@ -29,7 +31,6 @@ export default async function Layout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  // Ensure that the incoming `locale` is valid
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -41,8 +42,8 @@ export default async function Layout({
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Ezequiel Grigolatto',
-    url: 'https://jeg-dev.com',
-    image: 'https://jeg-dev.com/images/avatar/avatar.png',
+    url: BASE_URL,
+    image: `${BASE_URL}/images/avatar/avatar.png`,
     sameAs: [
       'https://www.linkedin.com/in/ezequiel-grigolatto/',
       'https://github.com/Ezegrigolatto',
@@ -57,15 +58,15 @@ export default async function Layout({
     knowsAbout: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Frontend Development'],
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://jeg-dev.com',
+      '@id': BASE_URL,
     },
   };
 
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        {/* Google Tag Manager - Script */}
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -79,9 +80,6 @@ export default async function Layout({
         <meta name="theme-color" content="#000000" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href={`https://jeg-dev.com`} />
-        <link rel="alternate" hrefLang="x-default" href="https://jeg-dev.com" />
-        <link rel="alternate" hrefLang="en" href="https://jeg-dev.com/en" />
         <meta name="keywords" content={t('keywords')} />
         <meta name="author" content="Ezequiel Grigolatto" />
         <meta name="robots" content="index, follow" />
@@ -94,7 +92,6 @@ export default async function Layout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
-        {/* Google Tag Manager */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5MW538FK"
@@ -131,10 +128,12 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+
+  const canonicalUrl = `${BASE_URL}/${locale}`;
 
   return {
     title: t('title'),
@@ -143,11 +142,11 @@ export async function generateMetadata({
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://jeg-dev.com`,
-      siteName: 'Next.js i18n Template',
+      url: canonicalUrl,
+      siteName: 'jeg-dev.com',
       images: [
         {
-          url: 'https://jeg-dev.com/images/avatar/avatar.png',
+          url: `${BASE_URL}/images/avatar/avatar.png`,
           width: 1200,
           height: 630,
           alt: t('title'),
@@ -160,13 +159,14 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['https://jeg-dev.com/images/avatar/avatar.png'],
+      images: [`${BASE_URL}/images/avatar/avatar.png`],
     },
     alternates: {
-      canonical: `https://jeg-dev.com`,
+      canonical: canonicalUrl,
       languages: {
-        en: 'https://jeg-dev.com/en',
-        es: 'https://jeg-dev.com/es',
+        'x-default': BASE_URL,
+        en: `${BASE_URL}/en`,
+        es: `${BASE_URL}/es`,
       },
     },
     robots: {
