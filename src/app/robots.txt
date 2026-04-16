@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-//TODO change url 
 Sitemap: https://jeg-dev.com/sitemap.xml
