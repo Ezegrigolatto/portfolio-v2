@@ -32,6 +32,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
         <motion.img
           src="/images/hero/hero-banner.jpg"
           alt="hero"
+          fetchPriority='high'
           className="w-full h-full object-cover"
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
